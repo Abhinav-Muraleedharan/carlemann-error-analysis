@@ -379,9 +379,9 @@ If you use this package in academic work, please cite:
 ```bibtex
 @software{carleman_error_analysis,
   title={Carleman Error Analysis: A Python Package for Nonlinear System Approximation},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/carleman-error-analysis}
+  author={Abhinav Muraleedharan},
+  year={2025},
+  url={https://github.com/Abhinav-Muraleedharan/carleman-error-analysis}
 }
 ```
 
