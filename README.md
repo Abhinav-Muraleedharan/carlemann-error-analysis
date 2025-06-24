@@ -100,6 +100,7 @@ Use the provided shell script to run comprehensive experiments:
 
 ```bash
 # Run all experiments with default settings
+chmod +x experiment.sh
 ./experiment.sh
 
 # Run experiments for specific systems

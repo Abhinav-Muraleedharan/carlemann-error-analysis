@@ -1,0 +1,40 @@
+# config/linear_config.yaml
+# Linear System Configuration
+system:
+  name: "Linear System"
+  description: "Stable linear system for validation"
+  n_states: 2
+  truncation_order: 2
+  
+matrices:
+  A1: [[-0.1, 1.0], [-1.0, -0.1]]
+  A2: [[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]]
+
+initial_conditions:
+  x0: [1.0, 0.0]
+
+simulation:
+  t_start: 0.0
+  t_end: 20.0
+  n_points: 200
+  solver_method: 'RK45'
+  rtol: 1.0e-8
+  atol: 1.0e-10
+
+plotting:
+  figure_size: [10, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/linear/'
+  show_plots: false
+
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/linear_analysis.log'
+
+performance:
+  use_parallel: false
+  n_workers: 2
+  memory_limit_gb: 4

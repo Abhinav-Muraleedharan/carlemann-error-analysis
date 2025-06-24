@@ -245,6 +245,201 @@ EOF
     fi
 }
 
+# Function to create base config and check system configs
+create_base_config() {
+    if [ ! -f "config/base_config.yaml" ]; then
+        print_info "Creating base configuration template: config/base_config.yaml"
+        
+        mkdir -p config
+        cat > "config/base_config.yaml" << 'EOF'
+# config/base_config.yaml
+# Base configuration template - copy and modify for specific systems
+
+# System identification
+system:
+  name: "Generic System"
+  description: "Template configuration for nonlinear systems"
+  n_states: 2
+  truncation_order: 4
+
+# System matrices (MODIFY THESE FOR YOUR SYSTEM)
+matrices:
+  # Linear part: A1 * x
+  # Should be n_states × n_states matrix
+  A1: [[0.0, 1.0],
+       [-1.0, 0.0]]
+  
+  # Quadratic part: A2 * (x ⊗ x)  
+  # Should be n_states × (n_states²) matrix
+  # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2] for 2D system
+  A2: [[0.0, 0.0, 0.0, 0.0],
+       [0.0, 0.0, 0.0, 0.0]]
+
+# Initial conditions
+initial_conditions:
+  x0: [1.0, 0.0]
+  description: "Default initial condition"
+
+# Simulation parameters  
+simulation:
+  t_start: 0.0
+  t_end: 10.0
+  n_points: 200
+  solver_method: 'Radau'
+  rtol: 1.0e-10
+  atol: 1.0e-12
+
+# System-specific parameters (optional)
+parameters: {}
+
+# Expected behavior (for documentation)
+expected_behavior:
+  type: "unknown"
+  description: "Describe expected system behavior"
+
+# Plotting parameters
+plotting:
+  figure_size: [12, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/'
+  show_plots: false
+  phase_plot: true
+
+# Logging
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/carleman_analysis.log'
+
+# Performance
+performance:
+  use_parallel: false
+  n_workers: 4
+  memory_limit_gb: 8
+EOF
+        print_success "Base configuration template created"
+    else
+        print_info "Base configuration template exists: config/base_config.yaml"
+    fi
+    
+    # Check for system-specific configurations and create if missing
+    print_info "Checking system-specific configuration files..."
+    
+    # Create Van der Pol config if missing
+    if [ ! -f "config/vanderpol_config.yaml" ]; then
+        print_info "Creating Van der Pol configuration..."
+        cat > "config/vanderpol_config.yaml" << 'EOF'
+# config/vanderpol_config.yaml
+# Van der Pol Oscillator Configuration
+system:
+  name: "Van der Pol Oscillator"
+  description: "Classic nonlinear oscillator with self-sustaining oscillations"
+  n_states: 2
+  truncation_order: 4
+  
+matrices:
+  A1: [[0.0, 1.0], [-1.0, 1.0]]
+  A2: [[0.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.0]]
+
+initial_conditions:
+  x0: [2.0, 0.0]
+
+simulation:
+  t_start: 0.0
+  t_end: 20.0
+  n_points: 400
+  solver_method: 'Radau'
+  rtol: 1.0e-10
+  atol: 1.0e-12
+
+parameters:
+  mu: 1.0
+
+plotting:
+  figure_size: [12, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/vanderpol/'
+  show_plots: false
+
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/vanderpol_analysis.log'
+
+performance:
+  use_parallel: false
+  n_workers: 4
+  memory_limit_gb: 8
+EOF
+        print_success "Created Van der Pol configuration"
+    else
+        print_success "Found Van der Pol configuration"
+    fi
+    
+    # Create Linear system config if missing
+    if [ ! -f "config/linear_config.yaml" ]; then
+        print_info "Creating Linear system configuration..."
+        cat > "config/linear_config.yaml" << 'EOF'
+# config/linear_config.yaml
+# Linear System Configuration
+system:
+  name: "Linear System"
+  description: "Stable linear system for validation"
+  n_states: 2
+  truncation_order: 2
+  
+matrices:
+  A1: [[-0.1, 1.0], [-1.0, -0.1]]
+  A2: [[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]]
+
+initial_conditions:
+  x0: [1.0, 0.0]
+
+simulation:
+  t_start: 0.0
+  t_end: 20.0
+  n_points: 200
+  solver_method: 'RK45'
+  rtol: 1.0e-8
+  atol: 1.0e-10
+
+plotting:
+  figure_size: [10, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/linear/'
+  show_plots: false
+
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/linear_analysis.log'
+
+performance:
+  use_parallel: false
+  n_workers: 2
+  memory_limit_gb: 4
+EOF
+        print_success "Created Linear system configuration"
+    else
+        print_success "Found Linear system configuration"
+    fi
+    
+    # Show available configurations
+    print_info "Available system configurations:"
+    for config_file in config/*_config.yaml; do
+        if [ -f "$config_file" ]; then
+            basename_file=$(basename "$config_file" _config.yaml)
+            print_success "  - $basename_file"
+        fi
+    done
+}
+
 # Function to run unit tests
 run_tests() {
     print_header "Running Unit Tests"
@@ -276,25 +471,7 @@ run_system_experiment() {
     local system_name=$1
     print_info "Running experiment for $system_name system..."
     
-    # Create temporary config for this system
-    local temp_config="config/temp_${system_name}_config.yaml"
-    cp "$CONFIG_FILE" "$temp_config"
-    
-    # Update truncation orders if specified
-    if [ "$TRUNCATION_ORDERS" != "2,3,4,5,6,7,8" ]; then
-        python3 -c "
-import yaml
-import sys
-
-with open('$temp_config', 'r') as f:
-    config = yaml.safe_load(f)
-
-config['experiments']['truncation_orders'] = [int(x.strip()) for x in '$TRUNCATION_ORDERS'.split(',')]
-
-with open('$temp_config', 'w') as f:
-    yaml.dump(config, f, default_flow_style=False)
-"
-    fi
+    # No need for temporary config - we use system-specific configs directly
     
     # Run the experiment using system-specific config
     if [ "$VERBOSE" = true ]; then
@@ -348,7 +525,7 @@ except Exception as e:
     fi
     
     # Clean up temporary config
-    rm -f "$temp_config"
+    # rm -f "$temp_config"  # No longer needed since we use system configs directly
     
     if [ $? -eq 0 ]; then
         print_success "Experiment completed for $system_name"
@@ -369,7 +546,7 @@ run_experiments() {
     
     # Determine which systems to test
     if [ "$SYSTEMS" = "all" ]; then
-        systems_to_test=("linear" "vanderpol" "duffing" "lotka_volterra" "brusselator")
+        systems_to_test=("linear" "vanderpol")  # Start with basic systems
     else
         IFS=',' read -ra systems_to_test <<< "$SYSTEMS"
     fi

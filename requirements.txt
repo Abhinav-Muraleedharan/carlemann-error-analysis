@@ -1,0 +1,29 @@
+# requirements.txt
+# Core scientific computing
+numpy
+scipy
+matplotlib
+
+# Configuration management
+PyYAML
+
+# Testing
+pytest
+pytest-cov
+
+# Optional: Enhanced plotting
+seaborn
+
+# Optional: Parallel processing
+joblib
+
+# Optional: Progress bars
+tqdm
+
+# Optional: Enhanced logging
+colorlog
+
+# Development tools (optional)
+black
+flake8
+mypy
