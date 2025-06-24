@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Carlemann-Error-Analysis
+Version: 0.1.0
+Summary: A package for Carleman linearization error analysis
+Home-page: https://github.com/yourusername/yourproject
+Author: Abhinav Muraleedharan
+Author-email: abhi@cs.toronto.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
