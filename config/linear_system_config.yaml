@@ -1,0 +1,67 @@
+# config/linear_system_config.yaml
+# Linear System Configuration (for validation)
+# System: dx1/dt = -0.1*x1 + x2
+#         dx2/dt = -x1 - 0.1*x2
+
+system:
+  name: "Linear System"
+  description: "Stable linear system for Carleman method validation"
+  n_states: 2
+  truncation_order: 2  # Low order sufficient for linear system
+
+# System matrices
+matrices:
+  # Linear part: A1 * x
+  A1: [[-0.1, 1.0],
+       [-1.0, -0.1]]
+  
+  # Quadratic part: A2 * (x ⊗ x) = 0 (no quadratic terms)
+  A2: [[0.0, 0.0, 0.0, 0.0],
+       [0.0, 0.0, 0.0, 0.0]]
+
+# Initial conditions
+initial_conditions:
+  x0: [1.0, 0.0]
+  description: "Simple initial condition for validation"
+
+# Simulation parameters
+simulation:
+  t_start: 0.0
+  t_end: 20.0
+  n_points: 200
+  solver_method: 'RK45'
+  rtol: 1.0e-8
+  atol: 1.0e-10
+
+# System-specific parameters
+parameters:
+  damping: 0.1
+  coupling: 1.0
+
+# Expected behavior
+expected_behavior:
+  type: "exponential_decay"
+  description: "Exponential decay to origin (stable equilibrium)"
+  eigenvalues: [-0.1 + 1.0j, -0.1 - 1.0j]
+
+# Plotting parameters
+plotting:
+  figure_size: [10, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/linear_system/'
+  show_plots: false
+  phase_plot: true
+
+# Logging
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/linear_system_analysis.log'
+
+# Performance
+performance:
+  use_parallel: false
+  n_workers: 2
+  memory_limit_gb: 4

@@ -1,0 +1,68 @@
+# config/vanderpol_config.yaml
+# Van der Pol Oscillator Configuration
+# System: dx1/dt = x2
+#         dx2/dt = μ(1 - x1²)x2 - x1
+
+system:
+  name: "Van der Pol Oscillator"
+  description: "Classic nonlinear oscillator with self-sustaining oscillations"
+  n_states: 2
+  truncation_order: 4
+  
+# System matrices
+matrices:
+  # Linear part: A1 * x
+  A1: [[0.0, 1.0],
+       [-1.0, 1.0]]  # μ = 1.0 (damping parameter)
+  
+  # Quadratic part: A2 * (x ⊗ x)
+  # For Van der Pol: dx2/dt includes -μ*x1²*x2 term
+  # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2]
+  A2: [[0.0, 0.0, 0.0, 0.0],
+       [0.0, -1.0, 0.0, 0.0]]  # -μ*x1*x2 term (μ = 1.0)
+
+# Initial conditions
+initial_conditions:
+  x0: [2.0, 0.0]
+  description: "Large amplitude initial condition to show limit cycle"
+
+# Simulation parameters  
+simulation:
+  t_start: 0.0
+  t_end: 20.0
+  n_points: 400
+  solver_method: 'Radau'
+  rtol: 1.0e-10
+  atol: 1.0e-12
+
+# System-specific parameters
+parameters:
+  mu: 1.0  # Van der Pol damping parameter
+
+# Expected behavior
+expected_behavior:
+  type: "limit_cycle"
+  description: "System should converge to a stable limit cycle"
+  characteristic_time: 10.0
+
+# Plotting parameters
+plotting:
+  figure_size: [12, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/vanderpol/'
+  show_plots: false
+  phase_plot: true  # Enable phase portrait plotting
+
+# Logging
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/vanderpol_analysis.log'
+
+# Performance
+performance:
+  use_parallel: false
+  n_workers: 4
+  memory_limit_gb: 8

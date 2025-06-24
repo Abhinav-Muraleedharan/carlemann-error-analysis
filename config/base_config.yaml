@@ -1,0 +1,66 @@
+# config/base_config.yaml
+# Base configuration template - copy and modify for specific systems
+
+# System identification
+system:
+  name: "Generic System"
+  description: "Template configuration for nonlinear systems"
+  n_states: 2
+  truncation_order: 4
+
+# System matrices (MODIFY THESE FOR YOUR SYSTEM)
+matrices:
+  # Linear part: A1 * x
+  # Should be n_states × n_states matrix
+  A1: [[0.0, 1.0],
+       [-1.0, 0.0]]
+  
+  # Quadratic part: A2 * (x ⊗ x)  
+  # Should be n_states × (n_states²) matrix
+  # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2] for 2D system
+  A2: [[0.0, 0.0, 0.0, 0.0],
+       [0.0, 0.0, 0.0, 0.0]]
+
+# Initial conditions
+initial_conditions:
+  x0: [1.0, 0.0]
+  description: "Default initial condition"
+
+# Simulation parameters  
+simulation:
+  t_start: 0.0
+  t_end: 10.0
+  n_points: 200
+  solver_method: 'Radau'  # Options: 'RK45', 'RK23', 'Radau', 'BDF', 'LSODA', 'DOP853'
+  rtol: 1.0e-10
+  atol: 1.0e-12
+
+# System-specific parameters (optional)
+parameters: {}
+
+# Expected behavior (for documentation)
+expected_behavior:
+  type: "unknown"
+  description: "Describe expected system behavior"
+
+# Plotting parameters
+plotting:
+  figure_size: [12, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/'
+  show_plots: false
+  phase_plot: true
+
+# Logging
+logging:
+  level: 'INFO'  # Options: 'DEBUG', 'INFO', 'WARNING', 'ERROR'
+  log_to_file: true
+  log_file: 'logs/carleman_analysis.log'
+
+# Performance
+performance:
+  use_parallel: false
+  n_workers: 4
+  memory_limit_gb: 8
