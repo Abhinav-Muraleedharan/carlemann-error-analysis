@@ -1,0 +1,108 @@
+2025-06-24 16:27:29,556 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 16:27:30,959 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 16:27:30,959 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 16:27:32,532 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:27:32,532 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 16:27:34,345 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:27:34,345 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 16:27:36,756 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:27:37,023 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 16:30:20,416 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 16:30:21,828 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 16:30:21,828 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 16:30:23,420 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:30:23,420 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 16:30:25,273 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:30:25,273 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 16:30:27,740 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:30:27,907 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 16:32:37,559 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 16:32:38,977 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 16:32:38,977 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 16:32:40,580 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:32:40,580 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 16:32:42,445 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:32:42,445 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 16:32:44,918 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:32:45,079 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 16:34:02,873 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 16:34:04,274 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 16:34:04,274 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 16:34:05,856 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:34:05,856 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 16:34:07,688 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:34:07,688 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 16:34:10,106 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:34:10,253 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 16:42:24,643 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 16:42:26,035 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 16:42:26,035 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 16:42:27,609 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:42:27,609 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 16:42:29,427 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:42:29,428 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 16:42:31,877 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:42:32,047 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 16:47:24,103 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 16:47:25,518 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 16:47:25,518 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 16:47:27,125 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:47:27,125 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 16:47:28,985 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:47:28,985 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 16:47:31,467 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:47:31,648 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 16:53:37,302 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 16:53:38,704 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 16:53:38,704 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 16:53:40,287 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:53:40,287 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 16:53:42,117 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:53:42,117 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 16:53:44,563 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 16:53:44,721 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 17:18:34,432 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 17:18:35,910 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 17:18:35,910 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 17:18:37,478 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,119) (2,400) 
+2025-06-24 17:18:37,478 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 17:18:39,167 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,119) (2,400) 
+2025-06-24 17:18:39,167 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 17:18:41,143 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,119) (2,400) 
+2025-06-24 17:18:41,321 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 17:20:39,915 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 17:20:41,346 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 17:20:41,347 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 17:20:42,879 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,119) (2,400) 
+2025-06-24 17:20:42,879 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 17:20:44,546 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,119) (2,400) 
+2025-06-24 17:20:44,546 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 17:20:46,439 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,119) (2,400) 
+2025-06-24 17:20:46,610 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 17:22:55,099 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 17:22:56,513 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 17:22:56,514 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 17:22:58,113 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 17:22:58,114 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 17:22:59,969 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 17:22:59,969 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 17:23:02,414 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,60) (2,400) 
+2025-06-24 17:23:02,587 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 17:23:33,517 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 17:23:34,957 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 17:23:34,957 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 17:23:36,644 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,40) (2,400) 
+2025-06-24 17:23:36,644 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 17:23:38,707 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,40) (2,400) 
+2025-06-24 17:23:38,708 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 17:23:41,705 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,40) (2,400) 
+2025-06-24 17:23:41,854 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-24 17:25:30,715 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-24 17:25:32,112 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-24 17:25:32,112 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-24 17:25:33,965 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,24) (2,400) 
+2025-06-24 17:25:33,965 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-24 17:25:36,437 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,24) (2,400) 
+2025-06-24 17:25:36,437 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-24 17:25:40,602 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,24) (2,400) 
+2025-06-24 17:25:40,764 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator

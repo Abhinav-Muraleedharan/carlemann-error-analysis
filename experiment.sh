@@ -484,15 +484,15 @@ from src.experiments import ExperimentRunner
 try:
     # Load system-specific configuration
     config = load_system_config('$system_name')
-    
+    print("Loaded configuration for $system_name:")
     # Create runner with system config
     runner = ExperimentRunner(config)
-    
+    print("Created Experiment Runner for $system_name:")
     # Get system matrices and initial conditions
     A1, A2 = config.get_system_matrices()
     x0 = config.get_initial_conditions()
     system_display_name = config.config['system']['name']
-    
+    print("Loaded initial conditions and system matrices for $system_name:")
     # Run truncation order study
     results = runner.run_truncation_order_study(system_display_name, A1, A2, x0)
     runner.plot_individual_system_analysis(system_display_name, results)

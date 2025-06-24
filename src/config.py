@@ -9,6 +9,8 @@ from dataclasses import dataclass
 @dataclass
 class SystemConfig:
     """Configuration for system parameters"""
+    name: str
+    description: str
     n_states: int
     truncation_order: int
 
@@ -40,6 +42,7 @@ class PlottingConfig:
     save_plots: bool
     output_directory: str
     show_plots: bool
+    phase_plot: bool
 
 
 @dataclass
@@ -77,7 +80,7 @@ class ConfigLoader:
         # Parse configurations into structured objects
         self.system = SystemConfig(**self.config['system'])
         self.simulation = SimulationConfig(**self.config['simulation'])
-        self.experiments = ExperimentConfig(**self.config['experiments'])
+        #self.experiments = ExperimentConfig(**self.config['experiments'])
         self.plotting = PlottingConfig(**self.config['plotting'])
         self.logging = LoggingConfig(**self.config['logging'])
         self.performance = PerformanceConfig(**self.config['performance'])
@@ -118,7 +121,7 @@ class ConfigLoader:
         # Re-parse configurations
         self.system = SystemConfig(**self.config['system'])
         self.simulation = SimulationConfig(**self.config['simulation'])
-        self.experiments = ExperimentConfig(**self.config['experiments'])
+        #self.experiments = ExperimentConfig(**self.config['experiments'])
         self.plotting = PlottingConfig(**self.config['plotting'])
         self.logging = LoggingConfig(**self.config['logging'])
         self.performance = PerformanceConfig(**self.config['performance'])

@@ -169,7 +169,7 @@ def simulate_and_compare(A1, A2, x0, t_span, t_eval, truncation_order=3,
     """
     n_states = len(x0)
 
-    # Create Carleman linearization
+    # Create Carleman linearization Matrix
     carleman = CarlemanLinearization(A1, A2, n_states, truncation_order)
 
     # Initial conditions
@@ -383,8 +383,10 @@ if __name__ == "__main__":
                 A1, A2, x0, t_span, t_eval, truncation_order=k)
             print("Original Solution:")
             print(sol_orig.y[:, -1])
+            print(sol_orig.y.shape)
             print("Carleman Solution:")
             print(x_carl[:, -1])
+            print(x_carl.shape)
             error = np.linalg.norm(sol_orig.y[:, -1] - x_carl[:, -1])
             final_errors.append(error)
             print(f"Final state error (L2 norm): {error}")

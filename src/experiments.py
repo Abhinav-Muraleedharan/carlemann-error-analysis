@@ -10,7 +10,7 @@ from typing import Dict, List, Tuple, Optional
 from dataclasses import dataclass
 
 from src.carlemann import CarlemanLinearization, simulate_and_compare
-from src.config import ConfigLoader, load_system_config, SYSTEM_CONFIGS
+from src.config import ConfigLoader, load_system_config
 
 
 @dataclass
@@ -169,15 +169,18 @@ class ExperimentRunner:
         try:
             t_span = self.config.get_time_span()
             t_eval = self.config.get_time_eval()
-            
+            print(f"Time span: {t_span}, Evaluation points: {t_eval}")
             # Run simulation
-            sol_orig, x_carl, carleman_sys = simulate_and_compare(
+            sol_orig, x_carl, _ = simulate_and_compare(
                 A1, A2, x0, t_span, t_eval, truncation_order=truncation_order)
-            
+            print(f"Simulation done for {system_name} with k={truncation_order}")
             computation_time = time.time() - start_time
-            
+            print("Original Solution:",sol_orig.y.shape)
+            print("Carlemann Approximation:",x_carl.shape)
             # Compute errors
             errors = np.abs(sol_orig.y - x_carl)
+            if errors.size == 0:
+                raise ValueError("No errors computed, check simulation output.")
             error_norms = np.linalg.norm(errors, axis=0)
             
             max_error = np.max(error_norms)
@@ -185,6 +188,7 @@ class ExperimentRunner:
             final_error = error_norms[-1]
             
             convergence = sol_orig.success and np.all(np.isfinite(x_carl))
+            print(f"Convergence: {convergence}, Final error: {final_error:.2e}")
             
             result = ExperimentResult(
                 system_name=system_name,
@@ -234,8 +238,9 @@ class ExperimentRunner:
         """
         results = []
         
-        for k in self.config.experiments.truncation_orders:
+        for k in range(self.config.system.truncation_order):
             result = self.run_single_experiment(system_name, A1, A2, x0, k)
+            print(f"Result for {system_name} with k={k}: Final error = {result.final_error:.2e}")
             results.append(result)
             self.results.append(result)
         
