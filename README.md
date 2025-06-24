@@ -391,4 +391,4 @@ For questions, suggestions, or bug reports, please open an issue on GitHub or co
 
 ---
 
-**Note**: This package is designed for research and educational purposes. For production applications, consider additional validation and testing for your specific use cases.
+**Note**: This package is designed for research and educational purposes. For production applications, please contact [abhi@cs.toronto.edu] before using it.
