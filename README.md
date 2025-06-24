@@ -387,7 +387,7 @@ If you use this package in academic work, please cite:
 
 ## Contact
 
-For questions, suggestions, or bug reports, please open an issue on GitHub or contact [your-email@domain.com].
+For questions, suggestions, or bug reports, please open an issue on GitHub or contact [abhi@cs.toronto.edu].
 
 ---
 
