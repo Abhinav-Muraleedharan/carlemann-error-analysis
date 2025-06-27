@@ -546,7 +546,7 @@ run_experiments() {
     
     # Determine which systems to test
     if [ "$SYSTEMS" = "all" ]; then
-        systems_to_test=("linear" "vanderpol")  # Start with basic systems
+        systems_to_test=("linear" "vanderpol" "duffing" "lotka_volterra" "brusselator")  # Start with basic systems
     else
         IFS=',' read -ra systems_to_test <<< "$SYSTEMS"
     fi

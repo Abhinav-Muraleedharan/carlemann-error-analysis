@@ -57,9 +57,7 @@ plotting:
   output_directory: 'results/lotka_volterra/'
   show_plots: false
   phase_plot: true
-  additional_plots:
-    - "population_dynamics"
-    - "conserved_quantity"
+
 
 # Logging
 logging:

@@ -62,10 +62,7 @@ plotting:
   output_directory: 'results/brusselator/'
   show_plots: false
   phase_plot: true
-  additional_plots:
-    - "time_series"
-    - "steady_state_analysis"
-
+  
 # Logging
 logging:
   level: 'INFO'

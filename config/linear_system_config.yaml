@@ -7,7 +7,7 @@ system:
   name: "Linear System"
   description: "Stable linear system for Carleman method validation"
   n_states: 2
-  truncation_order: 2  # Low order sufficient for linear system
+  truncation_order: 4  # Low order sufficient for linear system
 
 # System matrices
 matrices:
