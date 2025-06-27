@@ -13,17 +13,17 @@ system:
 matrices:
   # Linear part: A1 * x
   A1: [[0.0, 1.0],
-       [-1.0, 1.0]]  # μ = 1.0 (damping parameter)
+       [-1.0, 0.0]]  # μ = 1.0 (damping parameter)
   
   # Quadratic part: A2 * (x ⊗ x)
   # For Van der Pol: dx2/dt includes -μ*x1²*x2 term
   # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2]
-  A2: [[0.0, 0.0, 0.0, 0.0],
-       [0.0, -1.0, 0.0, 0.0]]  # -μ*x1*x2 term (μ = 1.0)
+  A2: [[0.0, 0.1, 0.01, 0.0],
+       [0.0, -0.1, 0.0, 0.0]]  # -μ*x1*x2 term (μ = 1.0)
 
 # Initial conditions
 initial_conditions:
-  x0: [2.0, 0.0]
+  x0: [1.0, 0.0]
   description: "Large amplitude initial condition to show limit cycle"
 
 # Simulation parameters  

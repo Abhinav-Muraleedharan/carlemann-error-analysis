@@ -106,3 +106,30 @@
 2025-06-24 17:25:36,437 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
 2025-06-24 17:25:40,602 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,24) (2,400) 
 2025-06-24 17:25:40,764 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-27 13:32:22,243 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-27 13:32:23,631 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 13:32:23,631 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-27 13:32:25,476 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=1, error: operands could not be broadcast together with shapes (2,24) (2,400) 
+2025-06-27 13:32:25,476 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-27 13:32:27,967 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=2, error: operands could not be broadcast together with shapes (2,24) (2,400) 
+2025-06-27 13:32:27,967 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-27 13:32:32,081 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=3, error: operands could not be broadcast together with shapes (2,24) (2,400) 
+2025-06-27 13:32:32,199 - carleman_experiments - WARNING - No successful results for Van der Pol Oscillator
+2025-06-27 13:34:56,753 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-27 13:34:57,524 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 13:34:57,524 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-27 13:34:58,610 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=2.49e-02, time=1.09s
+2025-06-27 13:34:58,610 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-27 13:35:00,236 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=2.15e-02, time=1.63s
+2025-06-27 13:35:00,236 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-27 13:35:02,270 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=5.71e-04, time=2.03s
+2025-06-27 13:35:03,305 - carleman_experiments - INFO - Saved plot: results/vanderpol/Van_der_Pol_Oscillator_analysis.png
+2025-06-27 13:42:03,514 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-27 13:42:04,366 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 13:42:04,366 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-27 13:42:05,539 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=4.88e-02, time=1.17s
+2025-06-27 13:42:05,539 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-27 13:42:07,257 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=4.45e-02, time=1.72s
+2025-06-27 13:42:07,257 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-27 13:42:09,337 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=2.76e-03, time=2.08s
+2025-06-27 13:42:10,372 - carleman_experiments - INFO - Saved plot: results/vanderpol/Van_der_Pol_Oscillator_analysis.png
