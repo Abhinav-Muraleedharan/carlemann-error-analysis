@@ -6,7 +6,7 @@
 system:
   name: "Nonlinear Schrodinger Equation 4D"
   description: "Nonlinear Schrodinger equation in 4D with quadratic nonlinearity"
-  n_states: 2
+  n_states: 4
   truncation_order: 4
   
 # System matrices

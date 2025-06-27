@@ -480,24 +480,24 @@ import sys
 sys.path.append('.')
 from src.config import load_system_config
 from src.experiments import ExperimentRunner
-
+system_name = '$system_name'
 try:
     # Load system-specific configuration
-    config = load_system_config('$system_name')
-    print("Loaded configuration for $system_name:")
+    config = load_system_config(system_name)
+    #print(f"Loaded configuration for {system_name}")
     # Create runner with system config
     runner = ExperimentRunner(config)
-    print("Created Experiment Runner for $system_name:")
+    #print("Created Experiment Runner for $system_name:")
     # Get system matrices and initial conditions
     A1, A2 = config.get_system_matrices()
     x0 = config.get_initial_conditions()
     system_display_name = config.config['system']['name']
-    print("Loaded initial conditions and system matrices for $system_name:")
+    #print("Loaded initial conditions and system matrices for $system_name:")
     # Run truncation order study
     results = runner.run_truncation_order_study(system_display_name, A1, A2, x0)
     runner.plot_individual_system_analysis(system_display_name, results)
     
-    print(f'Completed experiment for {system_display_name}')
+    #print(f'Completed experiment for {system_display_name}')
     
 except Exception as e:
     print(f'Error running experiment for $system_name: {str(e)}')
@@ -648,7 +648,7 @@ EOF
 generate_report() {
     print_header "Generating Final Report"
     
-    report_file="$OUTPUT_DIR/experiment_report.md"
+    report_file="./$OUTPUT_DIR/experiment_report.md"
     
     cat > "$report_file" << EOF
 # Carleman Error Analysis - Experiment Report
