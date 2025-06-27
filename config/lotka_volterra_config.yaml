@@ -1,0 +1,72 @@
+# config/lotka_volterra_config.yaml
+# Lotka-Volterra Predator-Prey System Configuration
+# System: dx1/dt = ax1 - bx1*x2  (prey)
+#         dx2/dt = -cx2 + dx1*x2 (predator)
+
+system:
+  name: "Lotka-Volterra System"
+  description: "Classical predator-prey model with quadratic interactions"
+  n_states: 2
+  truncation_order: 3
+
+# System matrices
+matrices:
+  # Linear part: A1 * x
+  A1: [[1.0, 0.0],     # a = 1.0 (prey growth rate)
+       [0.0, -0.75]]   # c = 0.75 (predator death rate)
+  
+  # Quadratic part: A2 * (x ⊗ x)
+  # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2]
+  # x1*x2 interaction terms: -b*x1*x2 for prey, +d*x1*x2 for predator
+  A2: [[0.0, -1.5, 0.0, 0.0],   # -b*x1*x2 term, b = 1.5 (predation rate)
+       [0.0, 1.0, 0.0, 0.0]]    # +d*x1*x2 term, d = 1.0 (predator efficiency)
+
+# Initial conditions
+initial_conditions:
+  x0: [1.0, 1.0]
+  description: "Equal initial populations of prey and predator"
+
+# Simulation parameters
+simulation:
+  t_start: 0.0
+  t_end: 15.0
+  n_points: 300
+  solver_method: 'DOP853'  # High-precision solver for oscillatory system
+  rtol: 1.0e-12
+  atol: 1.0e-14
+
+# System-specific parameters
+parameters:
+  a: 1.0    # Prey growth rate
+  b: 1.5    # Predation rate
+  c: 0.75   # Predator death rate
+  d: 1.0    # Predator efficiency
+
+# Expected behavior
+expected_behavior:
+  type: "periodic_orbits"
+  description: "Closed periodic orbits in phase space (conserved system)"
+  conserved_quantity: "H = d*x1 + b*x2 - c*ln(x1) - a*ln(x2)"
+
+# Plotting parameters
+plotting:
+  figure_size: [15, 10]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/lotka_volterra/'
+  show_plots: false
+  phase_plot: true
+
+
+# Logging
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/lotka_volterra_analysis.log'
+
+# Performance
+performance:
+  use_parallel: false
+  n_workers: 4
+  memory_limit_gb: 8

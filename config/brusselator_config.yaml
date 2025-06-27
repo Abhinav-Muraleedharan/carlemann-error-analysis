@@ -1,0 +1,82 @@
+# config/brusselator_config.yaml
+# Brusselator System Configuration
+# System: dx1/dt = a - (b+1)*x1 + x1²*x2
+#         dx2/dt = b*x1 - x1²*x2
+
+system:
+  name: "Brusselator"
+  description: "Chemical reaction model with autocatalytic behavior"
+  n_states: 2
+  truncation_order: 6  # Higher order needed for x1²*x2 terms
+
+# System matrices
+matrices:
+  # Linear part: A1 * x
+  A1: [[-4.0, 0.0],   # -(b+1) where b=3, so -(3+1)=-4
+       [3.0, 0.0]]    # b = 3
+  
+  # Quadratic part: A2 * (x ⊗ x)
+  # Note: x1²*x2 is actually a cubic term, so this is an approximation
+  # We approximate x1²*x2 ≈ x1*x2 for the quadratic Carleman truncation
+  # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2]
+  A2: [[0.0, 1.0, 0.0, 0.0],    # x1*x2 approximation for x1²*x2
+       [0.0, -1.0, 0.0, 0.0]]   # -x1*x2 approximation for -x1²*x2
+
+# Initial conditions
+initial_conditions:
+  x0: [1.0, 1.0]
+  description: "Near steady state initial condition"
+
+# Simulation parameters
+simulation:
+  t_start: 0.0
+  t_end: 10.0
+  n_points: 500
+  solver_method: 'Radau'
+  rtol: 1.0e-10
+  atol: 1.0e-12
+
+# System-specific parameters
+parameters:
+  a: 1.0  # Input concentration
+  b: 3.0  # Reaction rate parameter
+
+# Steady state (for reference)
+steady_state:
+  x1_ss: 1.0  # a = 1.0
+  x2_ss: 3.0  # b/a = 3.0
+  stability: "unstable"  # For b > 1 + a²
+
+# Expected behavior
+expected_behavior:
+  type: "oscillatory"
+  description: "Oscillatory behavior around unstable steady state (b > 1 + a²)"
+  note: "True cubic terms only approximated - higher truncation needed for accuracy"
+
+# Plotting parameters
+plotting:
+  figure_size: [12, 10]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/brusselator/'
+  show_plots: false
+  phase_plot: true
+  
+# Logging
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/brusselator_analysis.log'
+
+# Performance
+performance:
+  use_parallel: false
+  n_workers: 4
+  memory_limit_gb: 8
+
+# Special notes
+notes:
+  - "Brusselator contains cubic terms (x1²*x2) which are only approximated in quadratic Carleman truncation"
+  - "For accurate representation, use higher truncation orders (k ≥ 3)"
+  - "This configuration demonstrates limitations of low-order approximations"

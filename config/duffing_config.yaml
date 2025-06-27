@@ -1,0 +1,73 @@
+# config/duffing_config.yaml
+# Duffing Oscillator Configuration
+# System: dx1/dt = x2
+#         dx2/dt = -γx2 + αx1 + βx1³
+
+system:
+  name: "Duffing Oscillator"
+  description: "Nonlinear oscillator with cubic restoring force"
+  n_states: 2
+  truncation_order: 4
+
+# System matrices
+matrices:
+  # Linear part: A1 * x
+  A1: [[0.0, 1.0],
+       [-1.0, -0.1]]  # α = -1.0 (linear stiffness), γ = 0.1 (damping)
+  
+  # Quadratic part: A2 * (x ⊗ x)
+  # For Duffing: dx2/dt includes βx1³ term
+  # Since x1³ is cubic, we approximate with quadratic terms
+  # This is a limitation - true cubic terms need higher-order Carleman
+  # Here we use βx1² as an approximation for small x1
+  # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2]
+  A2: [[0.0, 0.0, 0.0, 0.0],
+       [1.0, 0.0, 0.0, 0.0]]  # β = 1.0 (cubic stiffness approximation)
+
+# Initial conditions
+initial_conditions:
+  x0: [1.0, 0.0]
+  description: "Moderate initial displacement"
+
+# Simulation parameters
+simulation:
+  t_start: 0.0
+  t_end: 30.0
+  n_points: 600
+  solver_method: 'Radau'
+  rtol: 1.0e-10
+  atol: 1.0e-12
+
+# System-specific parameters
+parameters:
+  alpha: -1.0   # Linear stiffness coefficient
+  beta: 1.0     # Cubic stiffness coefficient  
+  gamma: 0.1    # Damping coefficient
+
+# Expected behavior
+expected_behavior:
+  type: "complex_dynamics"
+  description: "Can exhibit periodic, quasi-periodic, or chaotic behavior depending on parameters"
+  note: "Cubic terms only approximated with quadratic Carleman truncation"
+
+# Plotting parameters
+plotting:
+  figure_size: [12, 8]
+  dpi: 300
+  save_format: 'png'
+  save_plots: true
+  output_directory: 'results/duffing/'
+  show_plots: false
+  phase_plot: true
+
+# Logging
+logging:
+  level: 'INFO'
+  log_to_file: true
+  log_file: 'logs/duffing_analysis.log'
+
+# Performance
+performance:
+  use_parallel: false
+  n_workers: 4
+  memory_limit_gb: 8

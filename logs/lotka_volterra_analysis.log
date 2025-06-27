@@ -1,0 +1,35 @@
+2025-06-27 15:07:39,163 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-06-27 15:07:39,346 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 15:07:39,346 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-06-27 15:07:39,632 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.29s
+2025-06-27 15:07:39,632 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-06-27 15:07:40,001 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.37s
+2025-06-27 15:07:41,028 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png
+2025-06-27 15:08:40,605 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-06-27 15:08:40,789 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 15:08:40,789 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-06-27 15:08:41,076 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.29s
+2025-06-27 15:08:41,076 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-06-27 15:08:41,445 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.37s
+2025-06-27 15:08:42,531 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png
+2025-06-27 16:27:04,346 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-06-27 16:27:04,531 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 16:27:04,531 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-06-27 16:27:04,818 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.29s
+2025-06-27 16:27:04,818 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-06-27 16:27:05,188 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.37s
+2025-06-27 16:27:06,232 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png
+2025-06-27 16:30:10,723 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-06-27 16:30:10,905 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 16:30:10,905 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-06-27 16:30:11,219 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.31s
+2025-06-27 16:30:11,219 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-06-27 16:30:11,588 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.37s
+2025-06-27 16:30:12,627 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png
+2025-06-27 17:31:38,333 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-06-27 17:31:38,516 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 17:31:38,517 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-06-27 17:31:38,804 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.29s
+2025-06-27 17:31:38,805 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-06-27 17:31:39,174 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.37s
+2025-06-27 17:31:40,201 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png

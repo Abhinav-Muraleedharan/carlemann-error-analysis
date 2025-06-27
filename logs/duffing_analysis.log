@@ -1,0 +1,72 @@
+2025-06-27 14:50:49,191 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 14:50:49,194 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 14:50:49,194 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 14:50:49,441 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.25s
+2025-06-27 14:50:49,441 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 14:50:49,919 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.48s
+2025-06-27 14:50:49,920 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 14:50:50,541 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.62s
+2025-06-27 14:50:51,598 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png
+2025-06-27 15:04:24,225 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 15:04:24,228 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 15:04:24,228 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 15:04:24,471 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.24s
+2025-06-27 15:04:24,471 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 15:04:24,940 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.47s
+2025-06-27 15:04:24,940 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 15:04:25,927 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.99s
+2025-06-27 15:04:27,099 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png
+2025-06-27 15:05:15,235 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 15:05:15,239 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 15:05:15,239 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 15:05:15,517 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.28s
+2025-06-27 15:05:15,517 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 15:05:15,990 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.47s
+2025-06-27 15:05:15,990 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 15:05:16,614 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.62s
+2025-06-27 15:05:17,669 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png
+2025-06-27 15:07:35,595 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 15:07:35,599 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 15:07:35,599 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 15:07:35,849 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.25s
+2025-06-27 15:07:35,849 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 15:07:36,390 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.54s
+2025-06-27 15:07:36,390 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 15:07:37,019 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.63s
+2025-06-27 15:07:38,099 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png
+2025-06-27 15:08:37,111 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 15:08:37,115 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 15:08:37,115 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 15:08:37,366 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.25s
+2025-06-27 15:08:37,366 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 15:08:37,850 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.48s
+2025-06-27 15:08:37,850 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 15:08:38,486 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.64s
+2025-06-27 15:08:39,545 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png
+2025-06-27 16:27:00,895 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 16:27:00,902 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 16:27:00,902 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 16:27:01,150 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.25s
+2025-06-27 16:27:01,150 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 16:27:01,618 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.47s
+2025-06-27 16:27:01,618 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 16:27:02,235 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.62s
+2025-06-27 16:27:03,310 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png
+2025-06-27 16:30:07,210 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 16:30:07,214 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 16:30:07,214 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 16:30:07,461 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.25s
+2025-06-27 16:30:07,461 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 16:30:07,989 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.53s
+2025-06-27 16:30:07,990 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 16:30:08,618 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.63s
+2025-06-27 16:30:09,678 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png
+2025-06-27 17:31:34,847 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-06-27 17:31:34,851 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 17:31:34,851 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-06-27 17:31:35,099 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.25s
+2025-06-27 17:31:35,099 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-06-27 17:31:35,575 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.48s
+2025-06-27 17:31:35,575 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-06-27 17:31:36,201 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.63s
+2025-06-27 17:31:37,276 - carleman_experiments - INFO - Saved plot: results/duffing/Duffing_Oscillator_analysis.png

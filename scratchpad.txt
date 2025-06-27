@@ -1,0 +1,5 @@
+    'vanderpol': 'config/vanderpol_config.yaml',
+    'duffing': 'config/duffing_config.yaml',
+    'lotka_volterra': 'config/lotka_volterra_config.yaml',
+    'linear': 'config/linear_system_config.yaml',
+    'brusselator': 'config/brusselator_config.yaml'
