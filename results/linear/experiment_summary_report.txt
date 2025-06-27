@@ -1,7 +1,7 @@
 ================================================================================
 CARLEMAN ERROR ANALYSIS - EXPERIMENT SUMMARY REPORT
 ================================================================================
-Generated on: 2025-06-27 17:31:04
+Generated on: 2025-06-27 18:40:26
 Configuration: /Users/abhinavmuraleedharan/carlemann_error_analysis/src/../config/default_config.yaml
 
 OVERALL STATISTICS:
@@ -15,7 +15,7 @@ SYSTEM: vanderpol
   Best performance: k=3, final_error=7.31e-03
   Worst performance: k=1, final_error=1.09e-01
   Final error statistics: mean=6.91e-02, std=4.43e-02
-  Average computation time: 3.290s
+  Average computation time: 2.994s
 
 SYSTEM: duffing
 ----------------------------------------
@@ -23,7 +23,7 @@ SYSTEM: duffing
   Best performance: k=2, final_error=9.87e-01
   Worst performance: k=3, final_error=1.91e+00
   Final error statistics: mean=1.30e+00, std=4.27e-01
-  Average computation time: 0.442s
+  Average computation time: 0.424s
 
 SYSTEM: lotka_volterra
 ----------------------------------------
@@ -31,15 +31,15 @@ SYSTEM: lotka_volterra
   Best performance: k=2, final_error=3.27e+06
   Worst performance: k=3, final_error=8.08e+08
   Final error statistics: mean=2.71e+08, std=3.79e+08
-  Average computation time: 0.368s
+  Average computation time: 0.338s
 
 SYSTEM: linear
 ----------------------------------------
   Experiments: 4 total, 3 successful
   Best performance: k=1, final_error=0.00e+00
-  Worst performance: k=3, final_error=4.31e-13
-  Final error statistics: mean=2.86e-13, std=2.02e-13
-  Average computation time: 0.590s
+  Worst performance: k=3, final_error=4.38e-13
+  Final error statistics: mean=2.90e-13, std=2.05e-13
+  Average computation time: 0.534s
 
 SYSTEM: brusselator
 ----------------------------------------
@@ -47,7 +47,7 @@ SYSTEM: brusselator
   Best performance: k=3, final_error=1.11e-02
   Worst performance: k=1, final_error=1.25e-01
   Final error statistics: mean=5.83e-02, std=4.84e-02
-  Average computation time: 0.209s
+  Average computation time: 0.184s
 
 SYSTEM: nonlinear_schrodinger_2D
 ----------------------------------------
@@ -55,7 +55,7 @@ SYSTEM: nonlinear_schrodinger_2D
   Best performance: k=3, final_error=1.27e-02
   Worst performance: k=1, final_error=1.01e-01
   Final error statistics: mean=6.32e-02, std=3.72e-02
-  Average computation time: 25.252s
+  Average computation time: 22.313s
 
 SYSTEM: nonlinear_schrodinger_4D
 ----------------------------------------
@@ -63,7 +63,7 @@ SYSTEM: nonlinear_schrodinger_4D
   Best performance: k=3, final_error=2.03e-02
   Worst performance: k=1, final_error=2.04e-01
   Final error statistics: mean=1.39e-01, std=8.39e-02
-  Average computation time: 24.032s
+  Average computation time: 21.651s
 
 RECOMMENDATIONS:
 ----------------------------------------

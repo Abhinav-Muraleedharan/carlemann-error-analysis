@@ -96,3 +96,21 @@
 2025-06-27 17:31:17,352 - carleman_experiments - INFO - Running experiment: Linear System, k=3
 2025-06-27 17:31:18,122 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.31e-13, time=0.77s
 2025-06-27 17:31:19,087 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-27 18:07:29,933 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-27 18:07:30,167 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 18:07:30,167 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-27 18:07:30,518 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-06-27 18:07:30,518 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-27 18:07:31,079 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-06-27 18:07:31,079 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-27 18:07:31,774 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-06-27 18:07:33,312 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-27 18:34:33,291 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-27 18:34:33,518 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 18:34:33,519 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-27 18:34:33,867 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-06-27 18:34:33,867 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-27 18:34:34,417 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.55s
+2025-06-27 18:34:34,417 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-27 18:34:35,108 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.69s
+2025-06-27 18:34:35,861 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png

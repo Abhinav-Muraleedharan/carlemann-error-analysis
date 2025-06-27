@@ -1,6 +1,6 @@
 # Carleman Error Analysis - Experiment Report
 
-**Generated on:** Fri Jun 27 17:31:05 EDT 2025
+**Generated on:** Fri Jun 27 18:40:27 EDT 2025
 **Configuration:** config/default_config.yaml
 **Systems tested:** all
 **Truncation orders:** 2,3,4,5,6,7,8
@@ -33,10 +33,10 @@ This report contains the results of running the Carleman Error Analysis experime
 
 ### System Information
 
-- **Python Version:** Python 3.11.0
-- **NumPy Version:** 1.26.4
-- **SciPy Version:** 1.10.1
-- **Matplotlib Version:** 3.7.1
+- **Python Version:** Python 3.11.13
+- **NumPy Version:** 2.3.1
+- **SciPy Version:** 1.16.0
+- **Matplotlib Version:** 3.10.3
 
 ### Usage
 

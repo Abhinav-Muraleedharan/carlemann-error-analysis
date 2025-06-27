@@ -33,3 +33,17 @@
 2025-06-27 17:31:38,805 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
 2025-06-27 17:31:39,174 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.37s
 2025-06-27 17:31:40,201 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png
+2025-06-27 18:07:49,210 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-06-27 18:07:49,371 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 18:07:49,371 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-06-27 18:07:49,627 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.26s
+2025-06-27 18:07:49,628 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-06-27 18:07:49,961 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.33s
+2025-06-27 18:07:50,699 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png
+2025-06-27 18:34:51,849 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-06-27 18:34:52,010 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 18:34:52,010 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-06-27 18:34:52,265 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.25s
+2025-06-27 18:34:52,265 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-06-27 18:34:52,596 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.33s
+2025-06-27 18:34:53,349 - carleman_experiments - INFO - Saved plot: results/lotka_volterra/Lotka-Volterra_System_analysis.png

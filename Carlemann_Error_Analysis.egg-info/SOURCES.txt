@@ -5,6 +5,10 @@ Carlemann_Error_Analysis.egg-info/SOURCES.txt
 Carlemann_Error_Analysis.egg-info/dependency_links.txt
 Carlemann_Error_Analysis.egg-info/top_level.txt
 src/__init__.py
+src/carlemann.py
+src/config.py
+src/experiments.py
 src/utils.py
 tests/__init__.py
 tests/test.py
+tests/test_comprehensive.py
