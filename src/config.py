@@ -158,7 +158,9 @@ AVAILABLE_SYSTEMS = {
     'duffing': 'config/duffing_config.yaml',
     'lotka_volterra': 'config/lotka_volterra_config.yaml',
     'linear': 'config/linear_system_config.yaml',
-    'brusselator': 'config/brusselator_config.yaml'
+    'brusselator': 'config/brusselator_config.yaml',
+    'nonlinear_schrodinger_2D': 'config/nonlinear_schrodinger_2D.yaml',
+    'nonlinear_schrodinger_4D': 'config/nonlinear_schrodinger_4D.yaml'
 }
 
 

@@ -223,3 +223,21 @@
 2025-06-27 15:08:30,450 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
 2025-06-27 15:08:34,644 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=7.31e-03, time=4.19s
 2025-06-27 15:08:35,694 - carleman_experiments - INFO - Saved plot: results/vanderpol/Van_der_Pol_Oscillator_analysis.png
+2025-06-27 16:26:46,776 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-27 16:26:48,469 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 16:26:48,469 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-27 16:26:50,800 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=1.09e-01, time=2.33s
+2025-06-27 16:26:50,800 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-27 16:26:54,207 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=9.12e-02, time=3.41s
+2025-06-27 16:26:54,207 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-27 16:26:58,342 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=7.31e-03, time=4.14s
+2025-06-27 16:26:59,452 - carleman_experiments - INFO - Saved plot: results/vanderpol/Van_der_Pol_Oscillator_analysis.png
+2025-06-27 16:29:53,107 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-06-27 16:29:54,812 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 16:29:54,812 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-06-27 16:29:57,164 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=1.09e-01, time=2.35s
+2025-06-27 16:29:57,164 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-06-27 16:30:00,691 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=9.12e-02, time=3.53s
+2025-06-27 16:30:00,692 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-06-27 16:30:04,838 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=7.31e-03, time=4.15s
+2025-06-27 16:30:05,883 - carleman_experiments - INFO - Saved plot: results/vanderpol/Van_der_Pol_Oscillator_analysis.png
