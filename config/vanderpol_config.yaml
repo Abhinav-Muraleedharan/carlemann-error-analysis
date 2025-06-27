@@ -29,7 +29,7 @@ initial_conditions:
 # Simulation parameters  
 simulation:
   t_start: 0.0
-  t_end: 50.0
+  t_end: 100.0
   n_points: 400
   solver_method: 'Radau'
   rtol: 1.0e-10

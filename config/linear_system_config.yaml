@@ -12,8 +12,8 @@ system:
 # System matrices
 matrices:
   # Linear part: A1 * x
-  A1: [[-0.1, 1.0],
-       [-1.0, -0.1]]
+  A1: [[-0.0, 1.0],
+       [-1.0, -0.0]]
   
   # Quadratic part: A2 * (x ⊗ x) = 0 (no quadratic terms)
   A2: [[0.0, 0.0, 0.0, 0.0],
