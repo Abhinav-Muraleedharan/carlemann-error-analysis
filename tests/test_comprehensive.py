@@ -181,14 +181,15 @@ class TestConfigLoader:
         """Test basic configuration loading"""
         # Create temporary config file
         config_data = {
-            'system': {'n_states': 2, 'truncation_order': 4},
+            'system': {'name': 'Test System',
+            'description': 'A test system for Carleman error analysis','n_states': 2, 'truncation_order': 4},
             'simulation': {'t_start': 0.0, 't_end': 10.0, 'n_points': 100, 
                           'solver_method': 'RK45', 'rtol': 1e-8, 'atol': 1e-10},
             'initial_conditions': {'x0': [1.0, 0.0]},
             'matrices': {'A1': [[0, 1], [-1, 0]], 'A2': [[0, 0, 0, 0], [0, 0, 0, 0]]},
             'experiments': {'truncation_orders': [2, 3, 4], 'systems_to_test': ['test']},
             'plotting': {'figure_size': [10, 8], 'dpi': 300, 'save_format': 'png', 
-                        'save_plots': True, 'output_directory': 'test_results/', 'show_plots': False},
+                        'save_plots': True, 'output_directory': 'test_results/', 'show_plots': False,'phase_plot': True},
             'logging': {'level': 'INFO', 'log_to_file': True, 'log_file': 'test.log'},
             'performance': {'use_parallel': False, 'n_workers': 2, 'memory_limit_gb': 4}
         }
@@ -223,14 +224,15 @@ class TestConfigLoader:
     def test_config_update(self):
         """Test configuration updating"""
         with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
-            yaml.dump({'system': {'n_states': 2, 'truncation_order': 3},
+            yaml.dump({'system': {'name': 'Test System',
+            'description': 'A test system for Carleman error analysis','n_states': 2, 'truncation_order': 3},
                       'simulation': {'t_start': 0, 't_end': 5, 'n_points': 50,
                                    'solver_method': 'RK45', 'rtol': 1e-8, 'atol': 1e-10},
                       'initial_conditions': {'x0': [0, 0]},
                       'matrices': {'A1': [[0, 1], [-1, 0]], 'A2': [[0, 0, 0, 0], [0, 0, 0, 0]]},
                       'experiments': {'truncation_orders': [2], 'systems_to_test': ['test']},
                       'plotting': {'figure_size': [8, 6], 'dpi': 100, 'save_format': 'png',
-                                 'save_plots': False, 'output_directory': 'results/', 'show_plots': True},
+                                 'save_plots': False, 'output_directory': 'results/', 'show_plots': True, 'phase_plot': True},
                       'logging': {'level': 'DEBUG', 'log_to_file': False, 'log_file': 'log.txt'},
                       'performance': {'use_parallel': True, 'n_workers': 1, 'memory_limit_gb': 2}}, f)
             temp_config_path = f.name
