@@ -45,6 +45,7 @@ CLEAN_OUTPUT=false
 VERBOSE=false
 SYSTEMS="all"
 TRUNCATION_ORDERS="2,3,4,5,6,7,8"
+CUSTOM_CONFIG_ONLY=false
 
 # Function to show usage
 show_usage() {
@@ -81,6 +82,7 @@ while [[ $# -gt 0 ]]; do
             ;;
         -c|--config)
             CONFIG_FILE="$2"
+            CUSTOM_CONFIG_ONLY=true
             shift 2
             ;;
         -o|--output)
@@ -535,6 +537,63 @@ except Exception as e:
     fi
 }
 
+run_custom_config_experiment() {
+    print_header "Running Custom Config Experiment"
+    
+    if [ ! -f "$CONFIG_FILE" ]; then
+        print_error "Config file not found: $CONFIG_FILE"
+        exit 1
+    fi
+
+    if [ "$VERBOSE" = true ]; then
+        $PYTHON_CMD -c "
+import sys
+sys.path.append('.')
+from src.config import load_config_file
+from src.experiments import ExperimentRunner
+
+config = load_config_file('$CONFIG_FILE')
+runner = ExperimentRunner(config)
+A1, A2 = config.get_system_matrices()
+x0 = config.get_initial_conditions()
+name = config.config['system']['name']
+results = runner.run_truncation_order_study(name, A1, A2, x0)
+runner.plot_individual_system_analysis(name, results)
+"
+    else
+        $PYTHON_CMD -c "
+import sys
+sys.path.append('.')
+from src.config import load_system_config
+from src.experiments import ExperimentRunner
+
+try:
+    config = load_config_file('$CONFIG_FILE')
+    runner = ExperimentRunner(config)
+    A1, A2 = config.get_system_matrices()
+    x0 = config.get_initial_conditions()
+    name = config.config['system']['name']
+    results = runner.run_truncation_order_study(name, A1, A2, x0)
+    runner.plot_individual_system_analysis(name, results)
+except Exception as e:
+    print(f'Error: {str(e)}')
+    sys.exit(1)
+" 2>/dev/null
+    fi
+
+    if [ $? -eq 0 ]; then
+        print_success "Experiment completed for custom config"
+    else
+        print_error "Experiment failed"
+        exit 1
+    fi
+}
+
+
+
+
+
+
 # Function to run experiments
 run_experiments() {
     print_header "Running Experiments"
@@ -744,7 +803,13 @@ main() {
     run_tests
     
     # Run experiments  
-    run_experiments
+    if [ "$CUSTOM_CONFIG_ONLY" = true ]; then
+        run_custom_config_experiment
+    else
+        run_experiments
+    fi
+
+    #run_experiments
     
     # Run performance benchmark
     run_performance_benchmark

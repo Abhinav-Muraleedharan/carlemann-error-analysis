@@ -55,3 +55,51 @@
 2025-06-27 19:45:46,205 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
 2025-06-27 19:46:15,547 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=29.34s
 2025-06-27 19:46:16,339 - carleman_experiments - INFO - Saved plot: results/schrodinger_2d/Nonlinear_Schrodinger_Equation_2D_analysis.png
+2025-06-30 22:32:19,620 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-06-30 22:32:34,317 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-30 22:32:34,317 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-06-30 22:32:55,818 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=21.50s
+2025-06-30 22:32:55,818 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-06-30 22:33:30,636 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=34.82s
+2025-06-30 22:33:30,637 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-06-30 22:34:13,627 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=42.99s
+2025-06-30 22:34:14,619 - carleman_experiments - INFO - Saved plot: results/schrodinger_2d/Nonlinear_Schrodinger_Equation_2D_analysis.png
+2025-06-30 23:06:22,159 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-06-30 23:06:38,680 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-30 23:06:38,681 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-06-30 23:10:14,537 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-06-30 23:10:33,070 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-30 23:10:33,070 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-06-30 23:10:59,683 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=26.61s
+2025-06-30 23:10:59,683 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-06-30 23:11:41,697 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=42.01s
+2025-06-30 23:11:41,698 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-06-30 23:12:34,981 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=53.28s
+2025-06-30 23:12:36,208 - carleman_experiments - INFO - Saved plot: results/schrodinger_2d/Nonlinear_Schrodinger_Equation_2D_analysis.png
+2025-07-01 09:13:08,652 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-07-01 09:13:19,237 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:13:19,238 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-07-01 09:13:34,317 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=15.08s
+2025-07-01 09:13:34,317 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-07-01 09:13:57,684 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=23.37s
+2025-07-01 09:13:57,685 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-07-01 09:14:26,957 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=29.27s
+2025-07-01 09:14:27,720 - carleman_experiments - INFO - Saved plot: results/schrodinger_2d/Nonlinear_Schrodinger_Equation_2D_analysis.png
+2025-07-01 09:39:35,664 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-07-01 09:39:46,009 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:39:46,009 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-07-01 09:40:00,926 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=14.92s
+2025-07-01 09:40:00,927 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-07-01 09:40:24,220 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=23.29s
+2025-07-01 09:40:24,221 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-07-01 09:40:54,064 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=29.84s
+2025-07-01 09:40:54,845 - carleman_experiments - INFO - Saved plot: results/schrodinger_2d/Nonlinear_Schrodinger_Equation_2D_analysis.png
+2025-07-01 12:44:52,373 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-07-01 12:45:03,153 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:45:03,153 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-07-01 12:45:18,963 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=15.81s
+2025-07-01 12:45:18,963 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-07-01 12:45:42,614 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=23.65s
+2025-07-01 12:45:42,614 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-07-01 12:46:11,938 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=29.32s
+2025-07-01 12:46:12,630 - carleman_experiments - INFO - Saved plot: results/schrodinger_2d/Nonlinear_Schrodinger_Equation_2D_analysis.png

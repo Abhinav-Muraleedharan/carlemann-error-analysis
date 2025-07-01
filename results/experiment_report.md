@@ -1,6 +1,6 @@
 # Carleman Error Analysis - Experiment Report
 
-**Generated on:** Fri Jun 27 19:50:32 EDT 2025
+**Generated on:** Tue Jul  1 12:50:31 EDT 2025
 **Configuration:** config/default_config.yaml
 **Systems tested:** all
 **Truncation orders:** 2,3,4,5,6,7,8
@@ -27,6 +27,13 @@ This report contains the results of running the Carleman Error Analysis experime
 - `Linear_System_analysis.png`
 - `Lotka-Volterra_System_analysis.png`
 - `Nonlinear_Schrodinger_Equation_2D_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-1_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-2_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-3_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-4_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-5_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-7_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-8_analysis.png`
 - `Nonlinear_Schrodinger_Equation_4D_analysis.png`
 - `Van_der_Pol_Oscillator_analysis.png`
 

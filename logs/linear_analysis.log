@@ -718,3 +718,323 @@
 2025-06-27 19:50:31,241 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_2D_analysis.png
 2025-06-27 19:50:31,754 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_4D_analysis.png
 2025-06-27 19:50:31,754 - carleman_experiments - INFO - Saved report: results/linear/experiment_summary_report.txt
+2025-07-01 08:54:08,489 - carleman_experiments - INFO - Available systems: ['vanderpol', 'duffing', 'lotka_volterra', 'linear', 'brusselator', 'nonlinear_schrodinger_2D', 'nonlinear_schrodinger_4D']
+2025-07-01 08:54:08,489 - carleman_experiments - INFO - Loading configuration for system: vanderpol
+2025-07-01 08:54:08,491 - carleman_experiments - INFO - Testing system: Van der Pol Oscillator
+2025-07-01 08:54:08,491 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-07-01 08:54:10,002 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:54:10,002 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-07-01 08:54:12,091 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=1.09e-01, time=2.09s
+2025-07-01 08:54:12,091 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-07-01 08:54:15,204 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=9.12e-02, time=3.11s
+2025-07-01 08:54:15,204 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-07-01 08:54:19,052 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=7.31e-03, time=3.85s
+2025-07-01 08:54:19,053 - carleman_experiments - INFO - Loading configuration for system: duffing
+2025-07-01 08:54:19,055 - carleman_experiments - INFO - Testing system: Duffing Oscillator
+2025-07-01 08:54:19,055 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-07-01 08:54:19,058 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:54:19,058 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-07-01 08:54:19,290 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.23s
+2025-07-01 08:54:19,290 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-07-01 08:54:19,734 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.44s
+2025-07-01 08:54:19,734 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-07-01 08:54:20,353 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.62s
+2025-07-01 08:54:20,353 - carleman_experiments - INFO - Loading configuration for system: lotka_volterra
+2025-07-01 08:54:20,356 - carleman_experiments - INFO - Testing system: Lotka-Volterra System
+2025-07-01 08:54:20,356 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-07-01 08:54:20,510 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:54:20,510 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-07-01 08:54:20,761 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.25s
+2025-07-01 08:54:20,761 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-07-01 08:54:21,090 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.33s
+2025-07-01 08:54:21,090 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=3
+2025-07-01 08:54:21,507 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=3, final_error=8.08e+08, time=0.42s
+2025-07-01 08:54:21,507 - carleman_experiments - INFO - Loading configuration for system: linear
+2025-07-01 08:54:21,510 - carleman_experiments - INFO - Testing system: Linear System
+2025-07-01 08:54:21,510 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-07-01 08:54:21,738 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:54:21,738 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-07-01 08:54:22,089 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-07-01 08:54:22,089 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-07-01 08:54:22,644 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.55s
+2025-07-01 08:54:22,644 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-07-01 08:54:23,338 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.69s
+2025-07-01 08:54:23,338 - carleman_experiments - INFO - Loading configuration for system: brusselator
+2025-07-01 08:54:23,341 - carleman_experiments - INFO - Testing system: Brusselator
+2025-07-01 08:54:23,341 - carleman_experiments - INFO - Running experiment: Brusselator, k=0
+2025-07-01 08:54:23,453 - carleman_experiments - ERROR - Experiment failed: Brusselator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:54:23,453 - carleman_experiments - INFO - Running experiment: Brusselator, k=1
+2025-07-01 08:54:23,621 - carleman_experiments - INFO - Completed: Brusselator, k=1, final_error=1.25e-01, time=0.17s
+2025-07-01 08:54:23,621 - carleman_experiments - INFO - Running experiment: Brusselator, k=2
+2025-07-01 08:54:23,806 - carleman_experiments - INFO - Completed: Brusselator, k=2, final_error=3.89e-02, time=0.19s
+2025-07-01 08:54:23,806 - carleman_experiments - INFO - Running experiment: Brusselator, k=3
+2025-07-01 08:54:24,005 - carleman_experiments - INFO - Completed: Brusselator, k=3, final_error=1.11e-02, time=0.20s
+2025-07-01 08:54:24,005 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_2D
+2025-07-01 08:54:24,008 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 2D
+2025-07-01 08:54:24,008 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-07-01 08:54:34,129 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:54:34,129 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-07-01 08:54:49,241 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=15.11s
+2025-07-01 08:54:49,242 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-07-01 08:55:13,172 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=23.93s
+2025-07-01 08:55:13,172 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-07-01 08:55:42,090 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=28.92s
+2025-07-01 08:55:42,091 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_4D
+2025-07-01 08:55:42,094 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 4D
+2025-07-01 08:55:42,094 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 08:55:51,700 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 08:55:51,700 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 08:56:05,729 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.03s
+2025-07-01 08:56:05,730 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 08:56:27,218 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.49s
+2025-07-01 08:56:27,219 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 08:56:58,404 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.19s
+2025-07-01 08:56:58,981 - carleman_experiments - INFO - Saved plot: results/linear/truncation_order_comparison.png
+2025-07-01 08:56:59,524 - carleman_experiments - INFO - Saved plot: results/linear/vanderpol_analysis.png
+2025-07-01 08:57:00,081 - carleman_experiments - INFO - Saved plot: results/linear/duffing_analysis.png
+2025-07-01 08:57:00,605 - carleman_experiments - INFO - Saved plot: results/linear/lotka_volterra_analysis.png
+2025-07-01 08:57:01,096 - carleman_experiments - INFO - Saved plot: results/linear/linear_analysis.png
+2025-07-01 08:57:01,634 - carleman_experiments - INFO - Saved plot: results/linear/brusselator_analysis.png
+2025-07-01 08:57:02,220 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_2D_analysis.png
+2025-07-01 08:57:02,734 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_4D_analysis.png
+2025-07-01 08:57:02,735 - carleman_experiments - INFO - Saved report: results/linear/experiment_summary_report.txt
+2025-07-01 08:58:03,684 - carleman_experiments - INFO - Available systems: ['vanderpol', 'duffing', 'lotka_volterra', 'linear', 'brusselator', 'nonlinear_schrodinger_2D', 'nonlinear_schrodinger_4D']
+2025-07-01 08:58:03,684 - carleman_experiments - INFO - Loading configuration for system: vanderpol
+2025-07-01 08:58:03,686 - carleman_experiments - INFO - Testing system: Van der Pol Oscillator
+2025-07-01 08:58:03,686 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-07-01 08:58:05,141 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:58:05,141 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-07-01 08:58:07,185 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=1.09e-01, time=2.04s
+2025-07-01 08:58:07,185 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-07-01 08:58:10,436 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=9.12e-02, time=3.25s
+2025-07-01 08:58:10,436 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-07-01 08:58:14,246 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=7.31e-03, time=3.81s
+2025-07-01 08:58:14,246 - carleman_experiments - INFO - Loading configuration for system: duffing
+2025-07-01 08:58:14,249 - carleman_experiments - INFO - Testing system: Duffing Oscillator
+2025-07-01 08:58:14,249 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-07-01 08:58:14,251 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:58:14,251 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-07-01 08:58:14,482 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.23s
+2025-07-01 08:58:14,483 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-07-01 08:58:14,928 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.45s
+2025-07-01 08:58:14,928 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-07-01 08:58:15,520 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.59s
+2025-07-01 08:58:15,520 - carleman_experiments - INFO - Loading configuration for system: lotka_volterra
+2025-07-01 08:58:15,523 - carleman_experiments - INFO - Testing system: Lotka-Volterra System
+2025-07-01 08:58:15,523 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-07-01 08:58:15,677 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:58:15,677 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-07-01 08:58:15,931 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.25s
+2025-07-01 08:58:15,931 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-07-01 08:58:16,298 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.37s
+2025-07-01 08:58:16,298 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=3
+2025-07-01 08:58:16,722 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=3, final_error=8.08e+08, time=0.42s
+2025-07-01 08:58:16,722 - carleman_experiments - INFO - Loading configuration for system: linear
+2025-07-01 08:58:16,725 - carleman_experiments - INFO - Testing system: Linear System
+2025-07-01 08:58:16,725 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-07-01 08:58:16,950 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:58:16,950 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-07-01 08:58:17,299 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-07-01 08:58:17,299 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-07-01 08:58:17,855 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-07-01 08:58:17,855 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-07-01 08:58:18,550 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.69s
+2025-07-01 08:58:18,550 - carleman_experiments - INFO - Loading configuration for system: brusselator
+2025-07-01 08:58:18,553 - carleman_experiments - INFO - Testing system: Brusselator
+2025-07-01 08:58:18,553 - carleman_experiments - INFO - Running experiment: Brusselator, k=0
+2025-07-01 08:58:18,664 - carleman_experiments - ERROR - Experiment failed: Brusselator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:58:18,664 - carleman_experiments - INFO - Running experiment: Brusselator, k=1
+2025-07-01 08:58:18,832 - carleman_experiments - INFO - Completed: Brusselator, k=1, final_error=1.25e-01, time=0.17s
+2025-07-01 08:58:18,832 - carleman_experiments - INFO - Running experiment: Brusselator, k=2
+2025-07-01 08:58:19,019 - carleman_experiments - INFO - Completed: Brusselator, k=2, final_error=3.89e-02, time=0.19s
+2025-07-01 08:58:19,019 - carleman_experiments - INFO - Running experiment: Brusselator, k=3
+2025-07-01 08:58:19,219 - carleman_experiments - INFO - Completed: Brusselator, k=3, final_error=1.11e-02, time=0.20s
+2025-07-01 08:58:19,219 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_2D
+2025-07-01 08:58:19,222 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 2D
+2025-07-01 08:58:19,222 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-07-01 08:58:29,322 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 08:58:29,322 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-07-01 08:58:44,252 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=14.93s
+2025-07-01 08:58:44,252 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-07-01 08:59:07,688 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=23.44s
+2025-07-01 08:59:07,689 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-07-01 08:59:36,422 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=28.73s
+2025-07-01 08:59:36,422 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_4D
+2025-07-01 08:59:36,426 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 4D
+2025-07-01 08:59:36,426 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 08:59:46,067 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 08:59:46,067 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 09:00:00,463 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.40s
+2025-07-01 09:00:00,464 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 09:00:22,163 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.70s
+2025-07-01 09:00:22,164 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 09:00:53,340 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.18s
+2025-07-01 09:00:53,935 - carleman_experiments - INFO - Saved plot: results/linear/truncation_order_comparison.png
+2025-07-01 09:00:54,465 - carleman_experiments - INFO - Saved plot: results/linear/vanderpol_analysis.png
+2025-07-01 09:00:55,023 - carleman_experiments - INFO - Saved plot: results/linear/duffing_analysis.png
+2025-07-01 09:00:55,492 - carleman_experiments - INFO - Saved plot: results/linear/lotka_volterra_analysis.png
+2025-07-01 09:00:56,017 - carleman_experiments - INFO - Saved plot: results/linear/linear_analysis.png
+2025-07-01 09:00:56,549 - carleman_experiments - INFO - Saved plot: results/linear/brusselator_analysis.png
+2025-07-01 09:00:57,106 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_2D_analysis.png
+2025-07-01 09:00:57,622 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_4D_analysis.png
+2025-07-01 09:00:57,623 - carleman_experiments - INFO - Saved report: results/linear/experiment_summary_report.txt
+2025-07-01 09:42:15,021 - carleman_experiments - INFO - Available systems: ['vanderpol', 'duffing', 'lotka_volterra', 'linear', 'brusselator', 'nonlinear_schrodinger_2D', 'nonlinear_schrodinger_4D']
+2025-07-01 09:42:15,022 - carleman_experiments - INFO - Loading configuration for system: vanderpol
+2025-07-01 09:42:15,024 - carleman_experiments - INFO - Testing system: Van der Pol Oscillator
+2025-07-01 09:42:15,024 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-07-01 09:42:16,475 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:42:16,476 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-07-01 09:42:18,556 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=1.09e-01, time=2.08s
+2025-07-01 09:42:18,556 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-07-01 09:42:21,642 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=9.12e-02, time=3.09s
+2025-07-01 09:42:21,642 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-07-01 09:42:25,434 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=7.31e-03, time=3.79s
+2025-07-01 09:42:25,434 - carleman_experiments - INFO - Loading configuration for system: duffing
+2025-07-01 09:42:25,437 - carleman_experiments - INFO - Testing system: Duffing Oscillator
+2025-07-01 09:42:25,437 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-07-01 09:42:25,440 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:42:25,440 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-07-01 09:42:25,671 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.23s
+2025-07-01 09:42:25,671 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-07-01 09:42:26,115 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.44s
+2025-07-01 09:42:26,115 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-07-01 09:42:26,705 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.59s
+2025-07-01 09:42:26,705 - carleman_experiments - INFO - Loading configuration for system: lotka_volterra
+2025-07-01 09:42:26,708 - carleman_experiments - INFO - Testing system: Lotka-Volterra System
+2025-07-01 09:42:26,708 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-07-01 09:42:26,863 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:42:26,863 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-07-01 09:42:27,115 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.25s
+2025-07-01 09:42:27,115 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-07-01 09:42:27,446 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.33s
+2025-07-01 09:42:27,446 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=3
+2025-07-01 09:42:27,867 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=3, final_error=8.08e+08, time=0.42s
+2025-07-01 09:42:27,868 - carleman_experiments - INFO - Loading configuration for system: linear
+2025-07-01 09:42:27,870 - carleman_experiments - INFO - Testing system: Linear System
+2025-07-01 09:42:27,870 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-07-01 09:42:28,112 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:42:28,112 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-07-01 09:42:28,461 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-07-01 09:42:28,461 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-07-01 09:42:29,017 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-07-01 09:42:29,018 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-07-01 09:42:29,714 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-07-01 09:42:29,714 - carleman_experiments - INFO - Loading configuration for system: brusselator
+2025-07-01 09:42:29,717 - carleman_experiments - INFO - Testing system: Brusselator
+2025-07-01 09:42:29,717 - carleman_experiments - INFO - Running experiment: Brusselator, k=0
+2025-07-01 09:42:29,828 - carleman_experiments - ERROR - Experiment failed: Brusselator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:42:29,829 - carleman_experiments - INFO - Running experiment: Brusselator, k=1
+2025-07-01 09:42:29,997 - carleman_experiments - INFO - Completed: Brusselator, k=1, final_error=1.25e-01, time=0.17s
+2025-07-01 09:42:29,997 - carleman_experiments - INFO - Running experiment: Brusselator, k=2
+2025-07-01 09:42:30,183 - carleman_experiments - INFO - Completed: Brusselator, k=2, final_error=3.89e-02, time=0.19s
+2025-07-01 09:42:30,184 - carleman_experiments - INFO - Running experiment: Brusselator, k=3
+2025-07-01 09:42:30,386 - carleman_experiments - INFO - Completed: Brusselator, k=3, final_error=1.11e-02, time=0.20s
+2025-07-01 09:42:30,386 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_2D
+2025-07-01 09:42:30,389 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 2D
+2025-07-01 09:42:30,389 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-07-01 09:42:40,615 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:42:40,616 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-07-01 09:42:55,650 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=15.03s
+2025-07-01 09:42:55,650 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-07-01 09:43:19,663 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=24.01s
+2025-07-01 09:43:19,664 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-07-01 09:43:48,759 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=29.09s
+2025-07-01 09:43:48,759 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_4D
+2025-07-01 09:43:48,763 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 4D
+2025-07-01 09:43:48,763 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 09:43:58,356 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 09:43:58,357 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 09:44:12,228 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=13.87s
+2025-07-01 09:44:12,228 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 09:44:33,201 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=20.97s
+2025-07-01 09:44:33,201 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 09:45:04,250 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.05s
+2025-07-01 09:45:04,933 - carleman_experiments - INFO - Saved plot: results/linear/truncation_order_comparison.png
+2025-07-01 09:45:05,490 - carleman_experiments - INFO - Saved plot: results/linear/vanderpol_analysis.png
+2025-07-01 09:45:06,048 - carleman_experiments - INFO - Saved plot: results/linear/duffing_analysis.png
+2025-07-01 09:45:06,567 - carleman_experiments - INFO - Saved plot: results/linear/lotka_volterra_analysis.png
+2025-07-01 09:45:07,104 - carleman_experiments - INFO - Saved plot: results/linear/linear_analysis.png
+2025-07-01 09:45:07,637 - carleman_experiments - INFO - Saved plot: results/linear/brusselator_analysis.png
+2025-07-01 09:45:08,217 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_2D_analysis.png
+2025-07-01 09:45:08,736 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_4D_analysis.png
+2025-07-01 09:45:08,737 - carleman_experiments - INFO - Saved report: results/linear/experiment_summary_report.txt
+2025-07-01 12:47:32,409 - carleman_experiments - INFO - Available systems: ['vanderpol', 'duffing', 'lotka_volterra', 'linear', 'brusselator', 'nonlinear_schrodinger_2D', 'nonlinear_schrodinger_4D']
+2025-07-01 12:47:32,409 - carleman_experiments - INFO - Loading configuration for system: vanderpol
+2025-07-01 12:47:32,411 - carleman_experiments - INFO - Testing system: Van der Pol Oscillator
+2025-07-01 12:47:32,411 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=0
+2025-07-01 12:47:33,887 - carleman_experiments - ERROR - Experiment failed: Van der Pol Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:47:33,888 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=1
+2025-07-01 12:47:35,961 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=1, final_error=1.09e-01, time=2.07s
+2025-07-01 12:47:35,961 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=2
+2025-07-01 12:47:39,098 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=2, final_error=9.12e-02, time=3.14s
+2025-07-01 12:47:39,098 - carleman_experiments - INFO - Running experiment: Van der Pol Oscillator, k=3
+2025-07-01 12:47:42,955 - carleman_experiments - INFO - Completed: Van der Pol Oscillator, k=3, final_error=7.31e-03, time=3.86s
+2025-07-01 12:47:42,955 - carleman_experiments - INFO - Loading configuration for system: duffing
+2025-07-01 12:47:42,957 - carleman_experiments - INFO - Testing system: Duffing Oscillator
+2025-07-01 12:47:42,957 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=0
+2025-07-01 12:47:42,960 - carleman_experiments - ERROR - Experiment failed: Duffing Oscillator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:47:42,960 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=1
+2025-07-01 12:47:43,197 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=1, final_error=1.01e+00, time=0.24s
+2025-07-01 12:47:43,197 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=2
+2025-07-01 12:47:43,648 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=2, final_error=9.87e-01, time=0.45s
+2025-07-01 12:47:43,648 - carleman_experiments - INFO - Running experiment: Duffing Oscillator, k=3
+2025-07-01 12:47:44,261 - carleman_experiments - INFO - Completed: Duffing Oscillator, k=3, final_error=1.91e+00, time=0.61s
+2025-07-01 12:47:44,261 - carleman_experiments - INFO - Loading configuration for system: lotka_volterra
+2025-07-01 12:47:44,263 - carleman_experiments - INFO - Testing system: Lotka-Volterra System
+2025-07-01 12:47:44,263 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=0
+2025-07-01 12:47:44,460 - carleman_experiments - ERROR - Experiment failed: Lotka-Volterra System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:47:44,592 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=1
+2025-07-01 12:47:44,892 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=1, final_error=3.27e+06, time=0.30s
+2025-07-01 12:47:44,892 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=2
+2025-07-01 12:47:45,255 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=2, final_error=3.27e+06, time=0.36s
+2025-07-01 12:47:45,255 - carleman_experiments - INFO - Running experiment: Lotka-Volterra System, k=3
+2025-07-01 12:47:45,685 - carleman_experiments - INFO - Completed: Lotka-Volterra System, k=3, final_error=8.08e+08, time=0.43s
+2025-07-01 12:47:45,685 - carleman_experiments - INFO - Loading configuration for system: linear
+2025-07-01 12:47:45,687 - carleman_experiments - INFO - Testing system: Linear System
+2025-07-01 12:47:45,687 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-07-01 12:47:45,914 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:47:45,914 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-07-01 12:47:46,264 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-07-01 12:47:46,264 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-07-01 12:47:46,825 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-07-01 12:47:46,825 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-07-01 12:47:47,528 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-07-01 12:47:47,528 - carleman_experiments - INFO - Loading configuration for system: brusselator
+2025-07-01 12:47:47,531 - carleman_experiments - INFO - Testing system: Brusselator
+2025-07-01 12:47:47,531 - carleman_experiments - INFO - Running experiment: Brusselator, k=0
+2025-07-01 12:47:47,643 - carleman_experiments - ERROR - Experiment failed: Brusselator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:47:47,643 - carleman_experiments - INFO - Running experiment: Brusselator, k=1
+2025-07-01 12:47:47,812 - carleman_experiments - INFO - Completed: Brusselator, k=1, final_error=1.25e-01, time=0.17s
+2025-07-01 12:47:47,812 - carleman_experiments - INFO - Running experiment: Brusselator, k=2
+2025-07-01 12:47:48,000 - carleman_experiments - INFO - Completed: Brusselator, k=2, final_error=3.89e-02, time=0.19s
+2025-07-01 12:47:48,000 - carleman_experiments - INFO - Running experiment: Brusselator, k=3
+2025-07-01 12:47:48,201 - carleman_experiments - INFO - Completed: Brusselator, k=3, final_error=1.11e-02, time=0.20s
+2025-07-01 12:47:48,201 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_2D
+2025-07-01 12:47:48,203 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 2D
+2025-07-01 12:47:48,203 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=0
+2025-07-01 12:47:58,559 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 2D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:47:58,559 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=1
+2025-07-01 12:48:14,062 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=1, final_error=1.01e-01, time=15.50s
+2025-07-01 12:48:14,063 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=2
+2025-07-01 12:48:38,034 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=2, final_error=7.56e-02, time=23.97s
+2025-07-01 12:48:38,034 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 2D, k=3
+2025-07-01 12:49:08,318 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 2D, k=3, final_error=1.27e-02, time=30.28s
+2025-07-01 12:49:08,319 - carleman_experiments - INFO - Loading configuration for system: nonlinear_schrodinger_4D
+2025-07-01 12:49:08,322 - carleman_experiments - INFO - Testing system: Nonlinear Schrodinger Equation 4D
+2025-07-01 12:49:08,322 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 12:49:18,135 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:49:18,135 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 12:49:32,518 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.38s
+2025-07-01 12:49:32,519 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 12:49:54,294 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.77s
+2025-07-01 12:49:54,295 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 12:50:25,993 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.70s
+2025-07-01 12:50:26,621 - carleman_experiments - INFO - Saved plot: results/linear/truncation_order_comparison.png
+2025-07-01 12:50:27,181 - carleman_experiments - INFO - Saved plot: results/linear/vanderpol_analysis.png
+2025-07-01 12:50:27,738 - carleman_experiments - INFO - Saved plot: results/linear/duffing_analysis.png
+2025-07-01 12:50:28,250 - carleman_experiments - INFO - Saved plot: results/linear/lotka_volterra_analysis.png
+2025-07-01 12:50:28,755 - carleman_experiments - INFO - Saved plot: results/linear/linear_analysis.png
+2025-07-01 12:50:29,310 - carleman_experiments - INFO - Saved plot: results/linear/brusselator_analysis.png
+2025-07-01 12:50:29,857 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_2D_analysis.png
+2025-07-01 12:50:30,380 - carleman_experiments - INFO - Saved plot: results/linear/nonlinear_schrodinger_4D_analysis.png
+2025-07-01 12:50:30,380 - carleman_experiments - INFO - Saved report: results/linear/experiment_summary_report.txt

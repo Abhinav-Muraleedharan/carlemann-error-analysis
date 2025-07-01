@@ -163,6 +163,21 @@ AVAILABLE_SYSTEMS = {
     'nonlinear_schrodinger_4D': 'config/nonlinear_schrodinger_4D.yaml'
 }
 
+def load_config_file(config_path: str) -> ConfigLoader:
+    """
+    Load configuration from a specified YAML file
+    
+    Args:
+        config_path: Path to the configuration file
+        
+    Returns:
+        ConfigLoader instance with loaded configuration
+    """
+    if not os.path.exists(config_path):
+        raise FileNotFoundError(f"Configuration file not found: {config_path}")
+    
+    return ConfigLoader(config_path)
+
 
 def load_system_config(system_name: str) -> ConfigLoader:
     """
