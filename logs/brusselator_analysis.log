@@ -76,3 +76,42 @@
 2025-06-27 18:34:55,243 - carleman_experiments - INFO - Running experiment: Brusselator, k=5
 2025-06-27 18:34:55,493 - carleman_experiments - INFO - Completed: Brusselator, k=5, final_error=4.94e-04, time=0.25s
 2025-06-27 18:34:56,394 - carleman_experiments - INFO - Saved plot: results/brusselator/Brusselator_analysis.png
+2025-06-27 19:29:43,698 - carleman_experiments - INFO - Running experiment: Brusselator, k=0
+2025-06-27 19:29:43,814 - carleman_experiments - ERROR - Experiment failed: Brusselator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 19:29:43,814 - carleman_experiments - INFO - Running experiment: Brusselator, k=1
+2025-06-27 19:29:43,984 - carleman_experiments - INFO - Completed: Brusselator, k=1, final_error=1.25e-01, time=0.17s
+2025-06-27 19:29:43,984 - carleman_experiments - INFO - Running experiment: Brusselator, k=2
+2025-06-27 19:29:44,170 - carleman_experiments - INFO - Completed: Brusselator, k=2, final_error=3.89e-02, time=0.19s
+2025-06-27 19:29:44,170 - carleman_experiments - INFO - Running experiment: Brusselator, k=3
+2025-06-27 19:29:44,369 - carleman_experiments - INFO - Completed: Brusselator, k=3, final_error=1.11e-02, time=0.20s
+2025-06-27 19:29:44,369 - carleman_experiments - INFO - Running experiment: Brusselator, k=4
+2025-06-27 19:29:44,582 - carleman_experiments - INFO - Completed: Brusselator, k=4, final_error=2.72e-03, time=0.21s
+2025-06-27 19:29:44,582 - carleman_experiments - INFO - Running experiment: Brusselator, k=5
+2025-06-27 19:29:44,826 - carleman_experiments - INFO - Completed: Brusselator, k=5, final_error=4.94e-04, time=0.24s
+2025-06-27 19:29:45,663 - carleman_experiments - INFO - Saved plot: results/brusselator/Brusselator_analysis.png
+2025-06-27 19:38:21,615 - carleman_experiments - INFO - Running experiment: Brusselator, k=0
+2025-06-27 19:38:21,734 - carleman_experiments - ERROR - Experiment failed: Brusselator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 19:38:21,734 - carleman_experiments - INFO - Running experiment: Brusselator, k=1
+2025-06-27 19:38:21,903 - carleman_experiments - INFO - Completed: Brusselator, k=1, final_error=1.25e-01, time=0.17s
+2025-06-27 19:38:21,903 - carleman_experiments - INFO - Running experiment: Brusselator, k=2
+2025-06-27 19:38:22,090 - carleman_experiments - INFO - Completed: Brusselator, k=2, final_error=3.89e-02, time=0.19s
+2025-06-27 19:38:22,091 - carleman_experiments - INFO - Running experiment: Brusselator, k=3
+2025-06-27 19:38:22,292 - carleman_experiments - INFO - Completed: Brusselator, k=3, final_error=1.11e-02, time=0.20s
+2025-06-27 19:38:22,292 - carleman_experiments - INFO - Running experiment: Brusselator, k=4
+2025-06-27 19:38:22,508 - carleman_experiments - INFO - Completed: Brusselator, k=4, final_error=2.72e-03, time=0.22s
+2025-06-27 19:38:22,508 - carleman_experiments - INFO - Running experiment: Brusselator, k=5
+2025-06-27 19:38:22,753 - carleman_experiments - INFO - Completed: Brusselator, k=5, final_error=4.94e-04, time=0.25s
+2025-06-27 19:38:23,596 - carleman_experiments - INFO - Saved plot: results/brusselator/Brusselator_analysis.png
+2025-06-27 19:44:54,031 - carleman_experiments - INFO - Running experiment: Brusselator, k=0
+2025-06-27 19:44:54,148 - carleman_experiments - ERROR - Experiment failed: Brusselator, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 19:44:54,149 - carleman_experiments - INFO - Running experiment: Brusselator, k=1
+2025-06-27 19:44:54,322 - carleman_experiments - INFO - Completed: Brusselator, k=1, final_error=1.25e-01, time=0.17s
+2025-06-27 19:44:54,322 - carleman_experiments - INFO - Running experiment: Brusselator, k=2
+2025-06-27 19:44:54,513 - carleman_experiments - INFO - Completed: Brusselator, k=2, final_error=3.89e-02, time=0.19s
+2025-06-27 19:44:54,513 - carleman_experiments - INFO - Running experiment: Brusselator, k=3
+2025-06-27 19:44:54,717 - carleman_experiments - INFO - Completed: Brusselator, k=3, final_error=1.11e-02, time=0.20s
+2025-06-27 19:44:54,717 - carleman_experiments - INFO - Running experiment: Brusselator, k=4
+2025-06-27 19:44:54,937 - carleman_experiments - INFO - Completed: Brusselator, k=4, final_error=2.72e-03, time=0.22s
+2025-06-27 19:44:54,937 - carleman_experiments - INFO - Running experiment: Brusselator, k=5
+2025-06-27 19:44:55,186 - carleman_experiments - INFO - Completed: Brusselator, k=5, final_error=4.94e-04, time=0.25s
+2025-06-27 19:44:56,016 - carleman_experiments - INFO - Saved plot: results/brusselator/Brusselator_analysis.png

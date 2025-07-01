@@ -1,6 +1,6 @@
 # Carleman Error Analysis - Experiment Report
 
-**Generated on:** Fri Jun 27 18:40:27 EDT 2025
+**Generated on:** Fri Jun 27 19:50:32 EDT 2025
 **Configuration:** config/default_config.yaml
 **Systems tested:** all
 **Truncation orders:** 2,3,4,5,6,7,8
