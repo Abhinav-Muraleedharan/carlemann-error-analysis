@@ -1,7 +1,7 @@
 # Carleman Error Analysis - Experiment Report
 
-**Generated on:** Tue Jul  1 12:50:31 EDT 2025
-**Configuration:** config/default_config.yaml
+**Generated on:** Thu Jul  3 16:27:24 EDT 2025
+**Configuration:** /Users/abhinavmuraleedharan/carlemann_error_analysis/config/nonlinear_schrodinger_configs/nonlinear_schrodinger_4D_6.yaml
 **Systems tested:** all
 **Truncation orders:** 2,3,4,5,6,7,8
 
@@ -32,6 +32,7 @@ This report contains the results of running the Carleman Error Analysis experime
 - `Nonlinear_Schrodinger_Equation_4D-3_analysis.png`
 - `Nonlinear_Schrodinger_Equation_4D-4_analysis.png`
 - `Nonlinear_Schrodinger_Equation_4D-5_analysis.png`
+- `Nonlinear_Schrodinger_Equation_4D-6_analysis.png`
 - `Nonlinear_Schrodinger_Equation_4D-7_analysis.png`
 - `Nonlinear_Schrodinger_Equation_4D-8_analysis.png`
 - `Nonlinear_Schrodinger_Equation_4D_analysis.png`
