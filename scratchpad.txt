@@ -3,3 +3,11 @@
     'lotka_volterra': 'config/lotka_volterra_config.yaml',
     'linear': 'config/linear_system_config.yaml',
     'brusselator': 'config/brusselator_config.yaml'
+
+
+    Parameters to track:
+
+
+    \error = f(
+    norm_nonlinearity, location_nonlinear_term, ----> requires change in config file
+     time, norm_of_initial_conditions, truncation_order ----> change only in the function-called

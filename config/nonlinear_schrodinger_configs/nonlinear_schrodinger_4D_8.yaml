@@ -4,7 +4,7 @@
 #         dx2/dt = μ(1 - x1²)x2 - x1
 
 system:
-  name: "Nonlinear Schrodinger Equation 4D"
+  name: "Nonlinear Schrodinger Equation 4D-8"
   description: "Nonlinear Schrodinger equation in 4D with quadratic nonlinearity"
   n_states: 4
   truncation_order: 4
@@ -20,8 +20,8 @@ matrices:
   
   # Quadratic part: A2 * (x ⊗ x)
   # For Van der Pol: dx2/dt includes -μ*x1²*x2 term
-  # Kronecker product ordering: [x1*x1, x1*x2, x2*x1, x2*x2]
-  A2: [  [0.9, 6, 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+  # Kronecker product ordering: [x1*x1, x1*x2, x1*x3, x1*x4, x2*x1, x2*x2, x2*x3, x2*x4, x3*x1, x3*x2, x3*x3, x3*x4, x4*x1, x4*x2, x4*x3, x4*x4]
+  A2: [  [0.1, 2.0, 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
           [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
           [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
           [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.] ]
@@ -29,7 +29,7 @@ matrices:
 
 # Initial conditions
 initial_conditions:
-  x0: [1.0, 0.0 , 0.0, 0.0]
+  x0: [0.5, 0.5 , 0.5, 0.5]
   description: "Initial condition for the nonlinear Schrodinger equation in 4D"
 
 # Simulation parameters  

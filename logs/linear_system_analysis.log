@@ -96,3 +96,111 @@
 2025-06-27 17:31:17,352 - carleman_experiments - INFO - Running experiment: Linear System, k=3
 2025-06-27 17:31:18,122 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.31e-13, time=0.77s
 2025-06-27 17:31:19,087 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-27 18:07:29,933 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-27 18:07:30,167 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 18:07:30,167 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-27 18:07:30,518 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-06-27 18:07:30,518 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-27 18:07:31,079 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-06-27 18:07:31,079 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-27 18:07:31,774 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-06-27 18:07:33,312 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-27 18:34:33,291 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-27 18:34:33,518 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 18:34:33,519 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-27 18:34:33,867 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-06-27 18:34:33,867 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-27 18:34:34,417 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.55s
+2025-06-27 18:34:34,417 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-27 18:34:35,108 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.69s
+2025-06-27 18:34:35,861 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-27 19:29:22,802 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-27 19:29:23,032 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 19:29:23,032 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-27 19:29:23,380 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-06-27 19:29:23,380 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-27 19:29:23,928 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.55s
+2025-06-27 19:29:23,928 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-27 19:29:24,613 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.69s
+2025-06-27 19:29:25,331 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-27 19:38:00,709 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-27 19:38:00,948 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 19:38:00,948 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-27 19:38:01,302 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-06-27 19:38:01,302 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-27 19:38:01,863 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-06-27 19:38:01,863 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-27 19:38:02,564 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-06-27 19:38:03,253 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-27 19:44:33,538 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-27 19:44:33,787 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-27 19:44:33,787 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-27 19:44:34,144 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.36s
+2025-06-27 19:44:34,144 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-27 19:44:34,703 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-06-27 19:44:34,703 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-27 19:44:35,403 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-06-27 19:44:36,075 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-30 22:31:49,459 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-30 22:31:49,750 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-30 22:31:49,750 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-30 22:31:50,216 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.47s
+2025-06-30 22:31:50,216 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-30 22:31:50,936 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.72s
+2025-06-30 22:31:50,936 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-30 22:31:51,846 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.91s
+2025-06-30 22:31:52,746 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-30 23:05:47,975 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-30 23:05:48,296 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-30 23:05:48,296 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-30 23:05:48,817 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.52s
+2025-06-30 23:05:48,817 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-30 23:05:49,646 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.83s
+2025-06-30 23:05:49,646 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-30 23:05:50,679 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=1.03s
+2025-06-30 23:05:51,721 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-30 23:07:10,263 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-30 23:07:10,607 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-30 23:07:10,608 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-30 23:07:11,148 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.54s
+2025-06-30 23:07:11,148 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-30 23:07:11,996 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.85s
+2025-06-30 23:07:11,996 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-30 23:07:13,062 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=1.07s
+2025-06-30 23:07:14,025 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-06-30 23:09:34,346 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-06-30 23:09:34,754 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-06-30 23:09:34,754 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-06-30 23:09:35,443 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.69s
+2025-06-30 23:09:35,443 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-06-30 23:09:36,444 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=1.00s
+2025-06-30 23:09:36,444 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-06-30 23:09:37,834 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=1.39s
+2025-06-30 23:09:38,968 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-07-01 09:12:44,782 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-07-01 09:12:45,015 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:12:45,015 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-07-01 09:12:45,364 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-07-01 09:12:45,364 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-07-01 09:12:45,916 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.55s
+2025-07-01 09:12:45,916 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-07-01 09:12:46,610 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.69s
+2025-07-01 09:12:47,317 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-07-01 09:39:12,421 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-07-01 09:39:12,655 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 09:39:12,656 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-07-01 09:39:13,009 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-07-01 09:39:13,009 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-07-01 09:39:13,566 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-07-01 09:39:13,566 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-07-01 09:39:14,263 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-07-01 09:39:14,952 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png
+2025-07-01 12:44:26,576 - carleman_experiments - INFO - Running experiment: Linear System, k=0
+2025-07-01 12:44:26,813 - carleman_experiments - ERROR - Experiment failed: Linear System, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
+2025-07-01 12:44:26,813 - carleman_experiments - INFO - Running experiment: Linear System, k=1
+2025-07-01 12:44:27,164 - carleman_experiments - INFO - Completed: Linear System, k=1, final_error=0.00e+00, time=0.35s
+2025-07-01 12:44:27,165 - carleman_experiments - INFO - Running experiment: Linear System, k=2
+2025-07-01 12:44:27,720 - carleman_experiments - INFO - Completed: Linear System, k=2, final_error=4.33e-13, time=0.56s
+2025-07-01 12:44:27,721 - carleman_experiments - INFO - Running experiment: Linear System, k=3
+2025-07-01 12:44:28,417 - carleman_experiments - INFO - Completed: Linear System, k=3, final_error=4.38e-13, time=0.70s
+2025-07-01 12:44:29,127 - carleman_experiments - INFO - Saved plot: results/linear_system/Linear_System_analysis.png

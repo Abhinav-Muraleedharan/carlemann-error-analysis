@@ -7,3 +7,230 @@
 2025-06-27 16:32:38,870 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
 2025-06-27 16:33:12,113 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=2.03e-02, time=33.24s
 2025-06-27 16:33:13,182 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-06-27 18:09:15,577 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-06-27 18:09:27,117 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-06-27 18:09:27,117 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-06-27 18:09:43,606 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.80e+00, time=16.49s
+2025-06-27 18:09:43,607 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-06-27 18:10:06,999 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=2.03e+00, time=23.39s
+2025-06-27 18:10:07,000 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-06-27 18:10:40,352 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.87e+01, time=33.35s
+2025-06-27 18:10:41,106 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-06-27 18:36:17,334 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-06-27 18:36:26,809 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-06-27 18:36:26,809 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-06-27 18:36:40,868 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=2.04e-01, time=14.06s
+2025-06-27 18:36:40,868 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-06-27 18:37:01,838 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.92e-01, time=20.97s
+2025-06-27 18:37:01,839 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-06-27 18:37:33,411 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=2.03e-02, time=31.57s
+2025-06-27 18:37:34,178 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-06-27 19:31:06,651 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-06-27 19:31:16,222 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-06-27 19:31:16,222 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-06-27 19:31:30,440 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=2.67e-02, time=14.22s
+2025-06-27 19:31:30,441 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-06-27 19:31:51,429 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=2.10e-02, time=20.99s
+2025-06-27 19:31:51,430 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-06-27 19:32:22,049 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=3.18e-04, time=30.62s
+2025-06-27 19:32:22,815 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-06-27 19:39:44,171 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-06-27 19:39:53,744 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-06-27 19:39:53,744 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-06-27 19:40:07,601 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=2.67e-02, time=13.86s
+2025-06-27 19:40:07,601 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-06-27 19:40:30,089 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=2.10e-02, time=22.49s
+2025-06-27 19:40:30,090 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-06-27 19:41:01,156 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=3.18e-04, time=31.06s
+2025-06-27 19:41:01,983 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-06-27 19:46:17,285 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-06-27 19:46:27,700 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-06-27 19:46:27,701 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-06-27 19:46:41,967 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.27s
+2025-06-27 19:46:41,968 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-06-27 19:47:03,077 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.11s
+2025-06-27 19:47:03,078 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-06-27 19:47:34,704 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.63s
+2025-06-27 19:47:35,519 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-06-30 22:34:15,725 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-06-30 22:34:29,547 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-06-30 22:34:29,547 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-06-30 22:34:49,905 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=20.36s
+2025-06-30 22:34:49,906 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-06-30 22:35:19,782 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=29.88s
+2025-06-30 22:35:19,783 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-06-30 22:36:03,972 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=44.19s
+2025-06-30 22:36:03,973 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=4
+2025-06-30 22:39:44,002 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=4, final_error=1.42e+00, time=220.03s
+2025-06-30 22:39:44,003 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=5
+2025-06-30 23:12:37,617 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-06-30 23:12:56,134 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-06-30 23:12:56,135 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-06-30 23:13:21,743 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=25.61s
+2025-06-30 23:13:21,744 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-06-30 23:14:00,573 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=38.83s
+2025-06-30 23:14:00,573 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 09:14:28,613 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 09:14:38,581 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 09:14:38,581 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 09:14:53,020 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.44s
+2025-07-01 09:14:53,021 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 09:15:14,941 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.92s
+2025-07-01 09:15:14,942 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 09:15:47,859 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=32.92s
+2025-07-01 09:15:47,860 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=4
+2025-07-01 09:19:33,139 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=4, final_error=1.42e+00, time=225.28s
+2025-07-01 09:19:33,140 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=5
+2025-07-01 09:40:55,732 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 09:41:05,486 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 09:41:05,487 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 09:41:19,511 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.02s
+2025-07-01 09:41:19,511 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 09:41:41,432 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.92s
+2025-07-01 09:41:41,433 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 09:42:13,284 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.85s
+2025-07-01 09:42:14,098 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-07-01 09:56:23,539 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 09:56:33,347 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 09:56:33,347 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 09:56:47,776 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.43s
+2025-07-01 09:56:47,777 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 09:57:09,333 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.56s
+2025-07-01 09:57:09,333 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 09:57:41,048 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.71s
+2025-07-01 09:57:41,858 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-07-01 11:39:51,339 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=0
+2025-07-01 11:40:01,182 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-1, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 11:40:01,182 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=1
+2025-07-01 11:40:16,118 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=1, final_error=1.54e+00, time=14.94s
+2025-07-01 11:40:16,119 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=2
+2025-07-01 11:40:38,019 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=2, final_error=1.57e+00, time=21.90s
+2025-07-01 11:40:38,019 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=3
+2025-07-01 11:41:09,304 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=3, final_error=1.41e+00, time=31.28s
+2025-07-01 11:41:10,123 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-1_analysis.png
+2025-07-01 11:42:48,671 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=0
+2025-07-01 11:43:00,165 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-1, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 11:43:00,166 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=1
+2025-07-01 11:43:14,933 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=1, final_error=1.54e+00, time=14.77s
+2025-07-01 11:43:14,934 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=2
+2025-07-01 11:43:36,562 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=2, final_error=1.57e+00, time=21.63s
+2025-07-01 11:43:36,562 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=3
+2025-07-01 11:44:09,609 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=3, final_error=1.41e+00, time=33.05s
+2025-07-01 11:44:09,610 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=4
+2025-07-01 11:46:21,207 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=0
+2025-07-01 11:46:31,124 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-1, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 11:46:31,124 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=1
+2025-07-01 11:46:45,491 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=1, final_error=1.54e+00, time=14.37s
+2025-07-01 11:46:45,491 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=2
+2025-07-01 11:47:09,341 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=2, final_error=1.57e+00, time=23.85s
+2025-07-01 11:47:09,351 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=3
+2025-07-01 11:47:44,068 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=3, final_error=1.41e+00, time=34.72s
+2025-07-01 11:47:45,062 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-1_analysis.png
+2025-07-01 11:50:50,037 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 11:50:50,805 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 11:50:50,805 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 11:50:56,203 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.70e+00, time=5.40s
+2025-07-01 11:50:56,203 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 11:51:10,566 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=2.04e+00, time=14.36s
+2025-07-01 11:51:10,567 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 11:51:34,490 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=7.45e+01, time=23.92s
+2025-07-01 11:51:35,251 - carleman_experiments - WARNING - No successful results for Nonlinear Schrodinger Equation 4D
+2025-07-01 11:52:59,743 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=0
+2025-07-01 11:53:00,511 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-2, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 11:53:00,512 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=1
+2025-07-01 11:53:05,862 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=1, final_error=1.70e+00, time=5.35s
+2025-07-01 11:53:05,862 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=2
+2025-07-01 11:53:18,560 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=2, final_error=2.04e+00, time=12.70s
+2025-07-01 11:53:18,560 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=3
+2025-07-01 11:53:42,714 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=3, final_error=7.45e+01, time=24.15s
+2025-07-01 11:53:42,892 - carleman_experiments - WARNING - No successful results for Nonlinear Schrodinger Equation 4D-2
+2025-07-01 11:55:35,441 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=0
+2025-07-01 11:55:36,215 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-2, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 11:55:36,215 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=1
+2025-07-01 11:55:41,485 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=1, final_error=1.70e+00, time=5.27s
+2025-07-01 11:55:41,485 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=2
+2025-07-01 11:55:54,187 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=2, final_error=2.04e+00, time=12.70s
+2025-07-01 11:55:54,187 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=3
+2025-07-01 11:56:16,382 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=3, final_error=7.45e+01, time=22.20s
+2025-07-01 11:56:16,520 - carleman_experiments - WARNING - No successful results for Nonlinear Schrodinger Equation 4D-2
+2025-07-01 11:57:58,530 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=0
+2025-07-01 11:58:10,152 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-2, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 11:58:10,153 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=1
+2025-07-01 11:58:25,493 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=1, final_error=1.82e+00, time=15.34s
+2025-07-01 11:58:25,494 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=2
+2025-07-01 11:58:48,162 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=2, final_error=1.96e+00, time=22.67s
+2025-07-01 11:58:48,163 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-2, k=3
+2025-07-01 11:59:21,153 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-2, k=3, final_error=8.19e+00, time=32.98s
+2025-07-01 11:59:21,914 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-2_analysis.png
+2025-07-01 12:00:36,590 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=0
+2025-07-01 12:00:46,415 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-1, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:00:46,416 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=1
+2025-07-01 12:01:00,730 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=1, final_error=2.67e-02, time=14.31s
+2025-07-01 12:01:00,731 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=2
+2025-07-01 12:01:22,965 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=2, final_error=2.10e-02, time=22.23s
+2025-07-01 12:01:22,966 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-1, k=3
+2025-07-01 12:01:53,811 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-1, k=3, final_error=3.18e-04, time=30.85s
+2025-07-01 12:01:54,639 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-1_analysis.png
+2025-07-01 12:04:38,571 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 12:04:48,148 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:04:48,148 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 12:05:03,820 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=2.67e-02, time=15.67s
+2025-07-01 12:05:03,821 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 12:05:25,245 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=2.10e-02, time=21.42s
+2025-07-01 12:05:25,245 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 12:05:57,580 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=3.18e-04, time=32.33s
+2025-07-01 12:05:58,400 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
+2025-07-01 12:07:37,998 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-3, k=0
+2025-07-01 12:07:47,584 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-3, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:07:47,584 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-3, k=1
+2025-07-01 12:08:01,457 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-3, k=1, final_error=2.67e-02, time=13.87s
+2025-07-01 12:08:01,457 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-3, k=2
+2025-07-01 12:08:22,565 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-3, k=2, final_error=2.10e-02, time=21.11s
+2025-07-01 12:08:22,565 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-3, k=3
+2025-07-01 12:08:53,395 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-3, k=3, final_error=3.18e-04, time=30.83s
+2025-07-01 12:08:54,096 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-3_analysis.png
+2025-07-01 12:09:27,322 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-4, k=0
+2025-07-01 12:09:37,113 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-4, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:09:37,113 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-4, k=1
+2025-07-01 12:09:51,143 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-4, k=1, final_error=2.67e-02, time=14.03s
+2025-07-01 12:09:51,143 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-4, k=2
+2025-07-01 12:10:12,487 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-4, k=2, final_error=2.10e-02, time=21.34s
+2025-07-01 12:10:12,487 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-4, k=3
+2025-07-01 12:10:43,454 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-4, k=3, final_error=3.18e-04, time=30.97s
+2025-07-01 12:10:44,129 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-4_analysis.png
+2025-07-01 12:11:38,307 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-5, k=0
+2025-07-01 12:11:47,949 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-5, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:11:47,950 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-5, k=1
+2025-07-01 12:12:02,981 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-5, k=1, final_error=2.67e-02, time=15.03s
+2025-07-01 12:12:02,981 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-5, k=2
+2025-07-01 12:12:25,691 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-5, k=2, final_error=2.10e-02, time=22.71s
+2025-07-01 12:12:25,691 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-5, k=3
+2025-07-01 12:12:59,476 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-5, k=3, final_error=3.18e-04, time=33.78s
+2025-07-01 12:13:00,169 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-5_analysis.png
+2025-07-01 12:29:48,300 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-7, k=0
+2025-07-01 12:29:59,248 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-7, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:29:59,248 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-7, k=1
+2025-07-01 12:30:15,819 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-7, k=1, final_error=7.46e-01, time=16.57s
+2025-07-01 12:30:15,820 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-7, k=2
+2025-07-01 12:30:40,529 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-7, k=2, final_error=8.09e-01, time=24.71s
+2025-07-01 12:30:40,529 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-7, k=3
+2025-07-01 12:31:18,217 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-7, k=3, final_error=3.72e+00, time=37.69s
+2025-07-01 12:31:18,881 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-7_analysis.png
+2025-07-01 12:32:12,061 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-8, k=0
+2025-07-01 12:32:23,479 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D-8, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:32:23,479 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-8, k=1
+2025-07-01 12:32:40,000 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-8, k=1, final_error=1.21e+00, time=16.52s
+2025-07-01 12:32:40,001 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-8, k=2
+2025-07-01 12:33:05,035 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-8, k=2, final_error=1.24e+00, time=25.03s
+2025-07-01 12:33:05,035 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D-8, k=3
+2025-07-01 12:33:44,182 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D-8, k=3, final_error=1.22e+00, time=39.15s
+2025-07-01 12:33:44,925 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D-8_analysis.png
+2025-07-01 12:46:13,744 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=0
+2025-07-01 12:46:23,605 - carleman_experiments - ERROR - Experiment failed: Nonlinear Schrodinger Equation 4D, k=0, error: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 4 is different from 0)
+2025-07-01 12:46:23,605 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=1
+2025-07-01 12:46:37,774 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=1, final_error=1.54e+00, time=14.17s
+2025-07-01 12:46:37,774 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=2
+2025-07-01 12:46:59,177 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=2, final_error=1.57e+00, time=21.40s
+2025-07-01 12:46:59,177 - carleman_experiments - INFO - Running experiment: Nonlinear Schrodinger Equation 4D, k=3
+2025-07-01 12:47:30,623 - carleman_experiments - INFO - Completed: Nonlinear Schrodinger Equation 4D, k=3, final_error=1.41e+00, time=31.45s
+2025-07-01 12:47:31,360 - carleman_experiments - INFO - Saved plot: results/schrodinger_4d/Nonlinear_Schrodinger_Equation_4D_analysis.png
