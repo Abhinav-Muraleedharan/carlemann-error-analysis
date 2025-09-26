@@ -6,10 +6,10 @@ A comprehensive Python package for analyzing the approximation accuracy of Carle
 
 Carleman linearization is a powerful technique for converting nonlinear dynamical systems into equivalent linear systems of higher dimension. This package provides tools to:
 
-- Construct Carleman linearizations for polynomial nonlinear systems
-- Analyze approximation accuracy across different truncation orders
-- Compare performance on various nonlinear dynamical systems
-- Visualize error evolution and convergence properties
+- Construct Carleman linearizations for polynomial nonlinear systems.
+- Analyze approximation accuracy across different truncation orders.
+- Compare performance on various nonlinear dynamical systems.
+- Visualize error evolution and convergence properties.
 
 ## Features
 
